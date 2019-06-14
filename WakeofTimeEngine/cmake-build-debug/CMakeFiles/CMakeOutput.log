@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,30 +23,30 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_3b1bd/fast 
-/usr/bin/make -f CMakeFiles/cmTC_3b1bd.dir/build.make CMakeFiles/cmTC_3b1bd.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3b1bd.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_3b1bd.dir/testCCompiler.c.o   -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_3b1bd
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b1bd.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_3b1bd.dir/testCCompiler.c.o  -o cmTC_3b1bd 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_2df7f/fast 
+/usr/bin/make -f CMakeFiles/cmTC_2df7f.dir/build.make CMakeFiles/cmTC_2df7f.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2df7f.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2df7f.dir/testCCompiler.c.o   -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2df7f
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2df7f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2df7f.dir/testCCompiler.c.o  -o cmTC_2df7f 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_d09a0/fast 
-/usr/bin/make -f CMakeFiles/cmTC_d09a0.dir/build.make CMakeFiles/cmTC_d09a0.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc   -v -o CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o   -c /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Run Build Command(s):/usr/bin/make cmTC_f65d9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f65d9.dir/build.make CMakeFiles/cmTC_f65d9.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -55,8 +55,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoIRtGx.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccz09KTW.s
 GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
 
@@ -76,15 +76,15 @@ GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 1f42e357acaa2189289675afee565401
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o /tmp/ccoIRtGx.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o /tmp/ccz09KTW.s
 GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-Linking C executable cmTC_d09a0
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09a0.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o  -o cmTC_d09a0 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_f65d9
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65d9.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o  -o cmTC_f65d9 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -96,10 +96,10 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d09a0' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMj6Owx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d09a0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d09a0' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65d9' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpyJe20.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f65d9 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65d9' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
@@ -121,13 +121,13 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d09a0/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d09a0.dir/build.make CMakeFiles/cmTC_d09a0.dir/build]
-  ignore line: [make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o   -c /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_f65d9/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f65d9.dir/build.make CMakeFiles/cmTC_f65d9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -136,8 +136,8 @@ Parsed C implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccoIRtGx.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccz09KTW.s]
   ignore line: [GNU C17 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
   ignore line: []
@@ -157,15 +157,15 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 1f42e357acaa2189289675afee565401]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o /tmp/ccoIRtGx.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o /tmp/ccz09KTW.s]
   ignore line: [GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking C executable cmTC_d09a0]
-  ignore line: [/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d09a0.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o  -o cmTC_d09a0 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_f65d9]
+  ignore line: [/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65d9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o  -o cmTC_f65d9 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -177,13 +177,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d09a0' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMj6Owx.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d09a0 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f65d9' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccpyJe20.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f65d9 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccMj6Owx.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccpyJe20.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -201,7 +201,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d09a0] ==> ignore
+    arg [cmTC_f65d9] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -213,7 +213,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_d09a0.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_f65d9.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -243,17 +243,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6db6a/fast 
-/usr/bin/make -f CMakeFiles/cmTC_6db6a.dir/build.make CMakeFiles/cmTC_6db6a.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o   -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6db6a
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6db6a.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_6db6a.dir/feature_tests.c.o  -o cmTC_6db6a 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_4cb57/fast 
+/usr/bin/make -f CMakeFiles/cmTC_4cb57.dir/build.make CMakeFiles/cmTC_4cb57.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cb57.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_4cb57.dir/feature_tests.c.o   -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4cb57
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cb57.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4cb57.dir/feature_tests.c.o  -o cmTC_4cb57 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -263,17 +263,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_11ef5/fast 
-/usr/bin/make -f CMakeFiles/cmTC_11ef5.dir/build.make CMakeFiles/cmTC_11ef5.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11ef5.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_11ef5.dir/feature_tests.c.o   -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_11ef5
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11ef5.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_11ef5.dir/feature_tests.c.o  -o cmTC_11ef5 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_81bd3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_81bd3.dir/build.make CMakeFiles/cmTC_81bd3.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81bd3.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_81bd3.dir/feature_tests.c.o   -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_81bd3
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81bd3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_81bd3.dir/feature_tests.c.o  -o cmTC_81bd3 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -283,17 +283,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_11dbd/fast 
-/usr/bin/make -f CMakeFiles/cmTC_11dbd.dir/build.make CMakeFiles/cmTC_11dbd.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_11dbd.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_11dbd.dir/feature_tests.c.o   -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_11dbd
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11dbd.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_11dbd.dir/feature_tests.c.o  -o cmTC_11dbd 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_74fcb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_74fcb.dir/build.make CMakeFiles/cmTC_74fcb.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74fcb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_74fcb.dir/feature_tests.c.o   -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_74fcb
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74fcb.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_74fcb.dir/feature_tests.c.o  -o cmTC_74fcb 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -301,27 +301,27 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e276f/fast 
-/usr/bin/make -f CMakeFiles/cmTC_e276f.dir/build.make CMakeFiles/cmTC_e276f.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e276f.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_e276f.dir/testCXXCompiler.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_e276f
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e276f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_e276f.dir/testCXXCompiler.cxx.o  -o cmTC_e276f 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_0a239/fast 
+/usr/bin/make -f CMakeFiles/cmTC_0a239.dir/build.make CMakeFiles/cmTC_0a239.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a239.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_0a239.dir/testCXXCompiler.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0a239
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a239.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_0a239.dir/testCXXCompiler.cxx.o  -o cmTC_0a239 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e63c5/fast 
-/usr/bin/make -f CMakeFiles/cmTC_e63c5.dir/build.make CMakeFiles/cmTC_e63c5.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++    -v -o CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -c /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Run Build Command(s):/usr/bin/make cmTC_61794/fast 
+/usr/bin/make -f CMakeFiles/cmTC_61794.dir/build.make CMakeFiles/cmTC_61794.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 OFFLOAD_TARGET_NAMES=nvptx-none
@@ -330,8 +330,8 @@ Target: x86_64-linux-gnu
 Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc3XirSP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccfZSZ8k.s
 GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP
 
@@ -355,15 +355,15 @@ GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 1110442b7b958f151ae10a1cb5af9032
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- as -v --64 -o CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3XirSP.s
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfZSZ8k.s
 GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-Linking CXX executable cmTC_e63c5
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e63c5.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e63c5 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_61794
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61794.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61794 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -375,10 +375,10 @@ Thread model: posix
 gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e63c5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJtaCRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e63c5 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e63c5' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61794' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3GWJ1n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61794 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61794' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
@@ -406,13 +406,13 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_e63c5/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e63c5.dir/build.make CMakeFiles/cmTC_e63c5.dir/build]
-  ignore line: [make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -c /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_61794/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_61794.dir/build.make CMakeFiles/cmTC_61794.dir/build]
+  ignore line: [make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -421,8 +421,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-6ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc3XirSP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccfZSZ8k.s]
   ignore line: [GNU C++14 (Ubuntu 8.3.0-6ubuntu1) version 8.3.0 (x86_64-linux-gnu)]
   ignore line: [	compiled by GNU C version 8.3.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.20-GMP]
   ignore line: []
@@ -446,15 +446,15 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 1110442b7b958f151ae10a1cb5af9032]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc3XirSP.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccfZSZ8k.s]
   ignore line: [GNU assembler version 2.32 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.32]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  ignore line: [Linking CXX executable cmTC_e63c5]
-  ignore line: [/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e63c5.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e63c5 ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_61794]
+  ignore line: [/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61794.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_61794 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -466,13 +466,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-6ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e63c5' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJtaCRO.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_e63c5 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61794' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3GWJ1n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_61794 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccJtaCRO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3GWJ1n.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -490,7 +490,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_e63c5] ==> ignore
+    arg [cmTC_61794] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -502,7 +502,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_e63c5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_61794.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -528,17 +528,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_405a2/fast 
-/usr/bin/make -f CMakeFiles/cmTC_405a2.dir/build.make CMakeFiles/cmTC_405a2.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_405a2.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_405a2.dir/feature_tests.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_405a2
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_405a2.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_405a2.dir/feature_tests.cxx.o  -o cmTC_405a2 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_d4fb0/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d4fb0.dir/build.make CMakeFiles/cmTC_d4fb0.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d4fb0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_d4fb0.dir/feature_tests.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d4fb0
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4fb0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d4fb0.dir/feature_tests.cxx.o  -o cmTC_d4fb0 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -601,17 +601,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b996a/fast 
-/usr/bin/make -f CMakeFiles/cmTC_b996a.dir/build.make CMakeFiles/cmTC_b996a.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b996a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_b996a.dir/feature_tests.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_b996a
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b996a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_b996a.dir/feature_tests.cxx.o  -o cmTC_b996a 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_7947d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7947d.dir/build.make CMakeFiles/cmTC_7947d.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7947d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_7947d.dir/feature_tests.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7947d
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7947d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7947d.dir/feature_tests.cxx.o  -o cmTC_7947d 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -674,17 +674,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_76f82/fast 
-/usr/bin/make -f CMakeFiles/cmTC_76f82.dir/build.make CMakeFiles/cmTC_76f82.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_76f82.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_76f82.dir/feature_tests.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_76f82
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76f82.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_76f82.dir/feature_tests.cxx.o  -o cmTC_76f82 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_b8be9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b8be9.dir/build.make CMakeFiles/cmTC_b8be9.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8be9.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_b8be9.dir/feature_tests.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8be9
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8be9.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b8be9.dir/feature_tests.cxx.o  -o cmTC_b8be9 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -747,17 +747,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_5361f/fast 
-/usr/bin/make -f CMakeFiles/cmTC_5361f.dir/build.make CMakeFiles/cmTC_5361f.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5361f.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5361f.dir/feature_tests.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5361f
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5361f.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_5361f.dir/feature_tests.cxx.o  -o cmTC_5361f 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_b2a97/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b2a97.dir/build.make CMakeFiles/cmTC_b2a97.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2a97.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b2a97.dir/feature_tests.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b2a97
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2a97.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b2a97.dir/feature_tests.cxx.o  -o cmTC_b2a97 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -820,17 +820,17 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2c64a/fast 
-/usr/bin/make -f CMakeFiles/cmTC_2c64a.dir/build.make CMakeFiles/cmTC_2c64a.dir/build
-make[1]: Entering directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_2c64a.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_2c64a.dir/feature_tests.cxx.o -c /home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_2c64a
-/home/robert/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c64a.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_2c64a.dir/feature_tests.cxx.o  -o cmTC_2c64a 
-make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command(s):/usr/bin/make cmTC_3540e/fast 
+/usr/bin/make -f CMakeFiles/cmTC_3540e.dir/build.make CMakeFiles/cmTC_3540e.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3540e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_3540e.dir/feature_tests.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3540e
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3540e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3540e.dir/feature_tests.cxx.o  -o cmTC_3540e 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -890,3 +890,424 @@ make[1]: Leaving directory '/home/robert/Desktop/WakeofTime/WakeofTimeEngine/cma
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_564b8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_564b8.dir/build.make CMakeFiles/cmTC_564b8.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_564b8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_564b8.dir/CheckIncludeFile.c.o   -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_564b8
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_564b8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_564b8.dir/CheckIncludeFile.c.o  -o cmTC_564b8 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31878/fast 
+/usr/bin/make -f CMakeFiles/cmTC_31878.dir/build.make CMakeFiles/cmTC_31878.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31878.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_31878.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_31878
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31878.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_31878.dir/CheckFunctionExists.c.o  -o cmTC_31878 -lpthread 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ead8d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_ead8d.dir/build.make CMakeFiles/cmTC_ead8d.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ead8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_ead8d.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ead8d
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ead8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    -rdynamic CMakeFiles/cmTC_ead8d.dir/CheckFunctionExists.c.o  -o cmTC_ead8d /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b77f8/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b77f8.dir/build.make CMakeFiles/cmTC_b77f8.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b77f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_b77f8.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b77f8
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b77f8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gethostbyname    -rdynamic CMakeFiles/cmTC_b77f8.dir/CheckFunctionExists.c.o  -o cmTC_b77f8 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf2d1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_bf2d1.dir/build.make CMakeFiles/cmTC_bf2d1.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf2d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_bf2d1.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bf2d1
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf2d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=connect    -rdynamic CMakeFiles/cmTC_bf2d1.dir/CheckFunctionExists.c.o  -o cmTC_bf2d1 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_315f1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_315f1.dir/build.make CMakeFiles/cmTC_315f1.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_315f1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_315f1.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_315f1
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_315f1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=remove    -rdynamic CMakeFiles/cmTC_315f1.dir/CheckFunctionExists.c.o  -o cmTC_315f1 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30c57/fast 
+/usr/bin/make -f CMakeFiles/cmTC_30c57.dir/build.make CMakeFiles/cmTC_30c57.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30c57.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_30c57.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_30c57
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30c57.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=shmat    -rdynamic CMakeFiles/cmTC_30c57.dir/CheckFunctionExists.c.o  -o cmTC_30c57 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8f88/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c8f88.dir/build.make CMakeFiles/cmTC_c8f88.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8f88.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_c8f88.dir/CheckFunctionExists.c.o   -c /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c8f88
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8f88.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    -rdynamic CMakeFiles/cmTC_c8f88.dir/CheckFunctionExists.c.o  -o cmTC_c8f88 -lICE 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test std_cpp11_flag succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b46ea/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b46ea.dir/build.make CMakeFiles/cmTC_b46ea.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b46ea.dir/src.cxx.o
+/usr/bin/c++    -Dstd_cpp11_flag   -std=c++11 -o CMakeFiles/cmTC_b46ea.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b46ea
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b46ea.dir/link.txt --verbose=1
+/usr/bin/c++   -Dstd_cpp11_flag    -rdynamic CMakeFiles/cmTC_b46ea.dir/src.cxx.o  -o cmTC_b46ea 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test std_cpp14_flag succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35648/fast 
+/usr/bin/make -f CMakeFiles/cmTC_35648.dir/build.make CMakeFiles/cmTC_35648.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35648.dir/src.cxx.o
+/usr/bin/c++    -Dstd_cpp14_flag   -std=c++14 -o CMakeFiles/cmTC_35648.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35648
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35648.dir/link.txt --verbose=1
+/usr/bin/c++   -Dstd_cpp14_flag    -rdynamic CMakeFiles/cmTC_35648.dir/src.cxx.o  -o cmTC_35648 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test std_cpp17_flag succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c2333/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c2333.dir/build.make CMakeFiles/cmTC_c2333.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2333.dir/src.cxx.o
+/usr/bin/c++    -Dstd_cpp17_flag   -std=c++17 -o CMakeFiles/cmTC_c2333.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c2333
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2333.dir/link.txt --verbose=1
+/usr/bin/c++   -Dstd_cpp17_flag    -rdynamic CMakeFiles/cmTC_c2333.dir/src.cxx.o  -o cmTC_c2333 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test has_alignas succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2d6d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e2d6d.dir/build.make CMakeFiles/cmTC_e2d6d.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e2d6d.dir/src.cxx.o
+/usr/bin/c++    -Dhas_alignas -std=c++11   -o CMakeFiles/cmTC_e2d6d.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e2d6d
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2d6d.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_alignas -std=c++11    -rdynamic CMakeFiles/cmTC_e2d6d.dir/src.cxx.o  -o cmTC_e2d6d 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() {alignas(int) char c; alignas(16) int i;}
+Performing C++ SOURCE FILE Test has_alignof succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9232/fast 
+/usr/bin/make -f CMakeFiles/cmTC_f9232.dir/build.make CMakeFiles/cmTC_f9232.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f9232.dir/src.cxx.o
+/usr/bin/c++    -Dhas_alignof -std=c++11   -o CMakeFiles/cmTC_f9232.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f9232
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9232.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_alignof -std=c++11    -rdynamic CMakeFiles/cmTC_f9232.dir/src.cxx.o  -o cmTC_f9232 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() {int i = alignof(int);}
+Performing C++ SOURCE FILE Test has_constexpr succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_86368/fast 
+/usr/bin/make -f CMakeFiles/cmTC_86368.dir/build.make CMakeFiles/cmTC_86368.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_86368.dir/src.cxx.o
+/usr/bin/c++    -Dhas_constexpr -std=c++11   -o CMakeFiles/cmTC_86368.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_86368
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86368.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_constexpr -std=c++11    -rdynamic CMakeFiles/cmTC_86368.dir/src.cxx.o  -o cmTC_86368 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() {constexpr int foo = 1;}
+Performing C++ SOURCE FILE Test has_noexcept succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e96e1/fast 
+/usr/bin/make -f CMakeFiles/cmTC_e96e1.dir/build.make CMakeFiles/cmTC_e96e1.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e96e1.dir/src.cxx.o
+/usr/bin/c++    -Dhas_noexcept -std=c++11   -o CMakeFiles/cmTC_e96e1.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e96e1
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96e1.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_noexcept -std=c++11    -rdynamic CMakeFiles/cmTC_e96e1.dir/src.cxx.o  -o cmTC_e96e1 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+void foo() noexcept {} int main(){}
+Performing C++ SOURCE FILE Test has_thread_local succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_41946/fast 
+/usr/bin/make -f CMakeFiles/cmTC_41946.dir/build.make CMakeFiles/cmTC_41946.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41946.dir/src.cxx.o
+/usr/bin/c++    -Dhas_thread_local -std=c++11   -o CMakeFiles/cmTC_41946.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_41946
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41946.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_thread_local -std=c++11    -rdynamic CMakeFiles/cmTC_41946.dir/src.cxx.o  -o cmTC_41946 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+thread_local int i; int main() {auto ptr = &i;}
+Performing C++ SOURCE FILE Test has_literal_op succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16dff/fast 
+/usr/bin/make -f CMakeFiles/cmTC_16dff.dir/build.make CMakeFiles/cmTC_16dff.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_16dff.dir/src.cxx.o
+/usr/bin/c++    -Dhas_literal_op -std=c++11   -o CMakeFiles/cmTC_16dff.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_16dff
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16dff.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_literal_op -std=c++11    -rdynamic CMakeFiles/cmTC_16dff.dir/src.cxx.o  -o cmTC_16dff 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstddef>
+                   int operator"" _foo(const char *, std::size_t){return 0;} int main(){}
+Performing C++ SOURCE FILE Test has_get_new_handler succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_84746/fast 
+/usr/bin/make -f CMakeFiles/cmTC_84746.dir/build.make CMakeFiles/cmTC_84746.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_84746.dir/src.cxx.o
+/usr/bin/c++    -Dhas_get_new_handler -std=c++11   -o CMakeFiles/cmTC_84746.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_84746
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84746.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_get_new_handler -std=c++11    -rdynamic CMakeFiles/cmTC_84746.dir/src.cxx.o  -o cmTC_84746 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <new>
+                   int main() {std::new_handler handler = std::get_new_handler();}
+Performing C++ SOURCE FILE Test has_max_align_t succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a4de/fast 
+/usr/bin/make -f CMakeFiles/cmTC_6a4de.dir/build.make CMakeFiles/cmTC_6a4de.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6a4de.dir/src.cxx.o
+/usr/bin/c++    -Dhas_max_align_t -std=c++11   -o CMakeFiles/cmTC_6a4de.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6a4de
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a4de.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_max_align_t -std=c++11    -rdynamic CMakeFiles/cmTC_6a4de.dir/src.cxx.o  -o cmTC_6a4de 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstddef>
+                          using namespace std;
+                          int main() {max_align_t val;}
+Performing C++ SOURCE FILE Test has_mutex succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6c00/fast 
+/usr/bin/make -f CMakeFiles/cmTC_d6c00.dir/build.make CMakeFiles/cmTC_d6c00.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6c00.dir/src.cxx.o
+/usr/bin/c++    -Dhas_mutex -std=c++11   -o CMakeFiles/cmTC_d6c00.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6c00
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c00.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_mutex -std=c++11    -rdynamic CMakeFiles/cmTC_d6c00.dir/src.cxx.o  -o cmTC_d6c00 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <mutex>
+                    int main()
+                    {
+                        std::mutex m1, m2;
+                        std::lock_guard<std::mutex> a(m1);
+                        std::unique_lock<std::mutex> b(m2);
+                    }
+Performing C++ SOURCE FILE Test has_pmr succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9fd12/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9fd12.dir/build.make CMakeFiles/cmTC_9fd12.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9fd12.dir/src.cxx.o
+/usr/bin/c++    -Dhas_pmr -std=c++14   -o CMakeFiles/cmTC_9fd12.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9fd12
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd12.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_pmr -std=c++14    -rdynamic CMakeFiles/cmTC_9fd12.dir/src.cxx.o  -o cmTC_9fd12 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <experimental/memory_resource>
+
+         int main()
+         {
+            using namespace std::experimental::pmr;
+
+            memory_resource* res = get_default_resource();
+            polymorphic_allocator<int> alloc(res);
+         }
+        
+Performing C++ SOURCE FILE Test has_exception_support succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b87bf/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b87bf.dir/build.make CMakeFiles/cmTC_b87bf.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b87bf.dir/src.cxx.o
+/usr/bin/c++    -Dhas_exception_support   -o CMakeFiles/cmTC_b87bf.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b87bf
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b87bf.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_exception_support    -rdynamic CMakeFiles/cmTC_b87bf.dir/src.cxx.o  -o cmTC_b87bf 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstddef>
+
+                    #if defined(__GNUC__) && !defined(__EXCEPTIONS)
+                        #error "no exception support"
+                    #elif defined(_MSC_VER) && !_HAS_EXCEPTIONS
+                        #error "no exception support"
+                    #endif
+
+                    struct my_exception {};
+                    int main()
+                    {
+                        try
+                        {
+                            throw my_exception();
+                        }
+                        catch (my_exception&) {}
+                        catch (...) {}
+                    }
+Performing C++ SOURCE FILE Test has_hosted_implementation succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_136a3/fast 
+/usr/bin/make -f CMakeFiles/cmTC_136a3.dir/build.make CMakeFiles/cmTC_136a3.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_136a3.dir/src.cxx.o
+/usr/bin/c++    -Dhas_hosted_implementation   -o CMakeFiles/cmTC_136a3.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_136a3
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_136a3.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_hosted_implementation    -rdynamic CMakeFiles/cmTC_136a3.dir/src.cxx.o  -o cmTC_136a3 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstddef>
+                    #if !_MSC_VER && !__STDC_HOSTED__
+                        #error "no hosted"
+                    #endif
+
+                    int main() {}
+Performing C++ SOURCE FILE Test has_rvalue_ref succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_daede/fast 
+/usr/bin/make -f CMakeFiles/cmTC_daede.dir/build.make CMakeFiles/cmTC_daede.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_daede.dir/src.cxx.o
+/usr/bin/c++    -Dhas_rvalue_ref -std=c++11   -o CMakeFiles/cmTC_daede.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_daede
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daede.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_rvalue_ref -std=c++11    -rdynamic CMakeFiles/cmTC_daede.dir/src.cxx.o  -o cmTC_daede 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(){int&& rvalue = 5;}
+Performing C++ SOURCE FILE Test has_clz succeeded with the following output:
+Change Dir: /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9cc7d/fast 
+/usr/bin/make -f CMakeFiles/cmTC_9cc7d.dir/build.make CMakeFiles/cmTC_9cc7d.dir/build
+make[1]: Entering directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9cc7d.dir/src.cxx.o
+/usr/bin/c++    -Dhas_clz -std=c++11   -o CMakeFiles/cmTC_9cc7d.dir/src.cxx.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9cc7d
+/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cc7d.dir/link.txt --verbose=1
+/usr/bin/c++   -Dhas_clz -std=c++11    -rdynamic CMakeFiles/cmTC_9cc7d.dir/src.cxx.o  -o cmTC_9cc7d 
+make[1]: Leaving directory '/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+#include <cstddef>
+
+        template <int i>
+        struct foo {};
+
+        int main()
+        {
+            int a = __builtin_clz(4);
+            int b = __builtin_clzl(4);
+            int c = __builtin_clzll(4);
+
+            // require constant expression
+            foo<__builtin_clz(4)> f;
+        }
