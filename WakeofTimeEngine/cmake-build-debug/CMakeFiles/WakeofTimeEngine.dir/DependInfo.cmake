@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o"
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

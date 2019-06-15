@@ -276,7 +276,7 @@ COMP_REMOTE_REPO:STRING=foonathan/compatibility
 COMP_REMOTE_URL:STRING=https://raw.githubusercontent.com/foonathan/compatibility/master/
 
 //Value Computed by CMake
-FOONATHAN_MEMORY_BINARY_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/ext/memory
+FOONATHAN_MEMORY_BINARY_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/memory
 
 //whether or not to build the examples
 FOONATHAN_MEMORY_BUILD_EXAMPLES:BOOL=OFF
@@ -316,7 +316,7 @@ FOONATHAN_MEMORY_MEMORY_RESOURCE:STRING=foonathan_comp::memory_resource
 FOONATHAN_MEMORY_MEMORY_RESOURCE_HEADER:STRING=<foonathan/pmr.hpp>
 
 //Value Computed by CMake
-FOONATHAN_MEMORY_SOURCE_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/ext/memory
+FOONATHAN_MEMORY_SOURCE_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory
 
 //set to 0 to disable the per-thread stack completely, to 1 to
 // disable the nitfy counter and to 2 to enable everything
@@ -358,13 +358,10 @@ Fontconfig_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libfontconfig.so
 //Value Computed by CMake
 GLFW_BINARY_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/glfw-3.3
 
-//Build the GLFW documentation
 GLFW_BUILD_DOCS:BOOL=OFF
 
-//Build the GLFW example programs
 GLFW_BUILD_EXAMPLES:BOOL=OFF
 
-//Build the GLFW test programs
 GLFW_BUILD_TESTS:BOOL=OFF
 
 //Generate installation target
@@ -781,7 +778,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1158,6 +1155,7 @@ has_pmr:INTERNAL=1
 has_rvalue_ref:INTERNAL=1
 //Test has_thread_local
 has_thread_local:INTERNAL=1
+option:INTERNAL=value
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_fontconfig
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_freetype

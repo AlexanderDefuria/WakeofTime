@@ -56,41 +56,6 @@ CMAKE_BINARY_DIR = /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-bui
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -102,27 +67,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -169,31 +123,32 @@ WakeofTimeEngine/fast:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/build
 .PHONY : WakeofTimeEngine/fast
 
-#=============================================================================
-# Target rules for targets named uninstall
+common/shader.o: common/shader.cpp.o
 
-# Build rule for target.
-uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uninstall
-.PHONY : uninstall
+.PHONY : common/shader.o
 
-# fast build rule for target.
-uninstall/fast:
-	$(MAKE) -f glfw-3.3/CMakeFiles/uninstall.dir/build.make glfw-3.3/CMakeFiles/uninstall.dir/build
-.PHONY : uninstall/fast
+# target to build an object file
+common/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o
+.PHONY : common/shader.cpp.o
 
-#=============================================================================
-# Target rules for targets named glfw
+common/shader.i: common/shader.cpp.i
 
-# Build rule for target.
-glfw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 glfw
-.PHONY : glfw
+.PHONY : common/shader.i
 
-# fast build rule for target.
-glfw/fast:
-	$(MAKE) -f glfw-3.3/src/CMakeFiles/glfw.dir/build.make glfw-3.3/src/CMakeFiles/glfw.dir/build
-.PHONY : glfw/fast
+# target to preprocess a source file
+common/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.i
+.PHONY : common/shader.cpp.i
+
+common/shader.s: common/shader.cpp.s
+
+.PHONY : common/shader.s
+
+# target to generate assembly for a file
+common/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.s
+.PHONY : common/shader.cpp.s
 
 main.o: main.cpp.o
 
@@ -222,24 +177,51 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+renderer.o: renderer.cpp.o
+
+.PHONY : renderer.o
+
+# target to build an object file
+renderer.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o
+.PHONY : renderer.cpp.o
+
+renderer.i: renderer.cpp.i
+
+.PHONY : renderer.i
+
+# target to preprocess a source file
+renderer.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.i
+.PHONY : renderer.cpp.i
+
+renderer.s: renderer.cpp.s
+
+.PHONY : renderer.s
+
+# target to generate assembly for a file
+renderer.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.s
+.PHONY : renderer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... WakeofTimeEngine"
-	@echo "... list_install_components"
-	@echo "... install/local"
-	@echo "... uninstall"
-	@echo "... glfw"
+	@echo "... edit_cache"
+	@echo "... common/shader.o"
+	@echo "... common/shader.i"
+	@echo "... common/shader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... renderer.o"
+	@echo "... renderer.i"
+	@echo "... renderer.s"
 .PHONY : help
 
 

@@ -1,3 +1,10 @@
+//
+// Created by alexander on 14/06/19.
+//
+
+#ifndef WAKEOFTIMEENGINE_OBJECTPOOL_H
+#define WAKEOFTIMEENGINE_OBJECTPOOL_H
+
 #include <iostream>
 #include <memory>
 #include <functional>
@@ -10,9 +17,9 @@ public:
     using pointer = std::unique_ptr<T,std::function<void(T*)> >;
     using PoolType = StackObjectPool<T,SZ,Initialiser, Releaser>;
 
-    StackObjectPool() = default;
+    StackObjectPool() {}
     StackObjectPool(const PoolType& orig) = delete;
-    ~StackObjectPool() = default;
+    ~StackObjectPool() {}
 
     /**
      * Acquires an object not being currently used
@@ -53,3 +60,5 @@ private:
     bool m_occupied_registry[SZ] {0};
     T m_objects[SZ];
 };
+
+#endif //WAKEOFTIMEENGINE_OBJECTPOOL_H

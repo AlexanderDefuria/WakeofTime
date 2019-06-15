@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/WakeofTimeEngine.dir/main.cpp.o  -o WakeofTimeEngine -lglfw -lGLU -lGL 
+/usr/bin/c++  -g   CMakeFiles/WakeofTimeEngine.dir/main.cpp.o CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o  -o WakeofTimeEngine -lglfw -lGLEW -lGLU -lGL 

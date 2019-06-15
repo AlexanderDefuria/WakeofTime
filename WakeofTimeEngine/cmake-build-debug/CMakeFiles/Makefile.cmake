@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -17,26 +16,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeGenericSystem.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeInitializeConfigs.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeLanguageInformation.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakePackageConfigHelpers.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CMakeSystemSpecificInitialize.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckFunctionExists.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckIncludeFile.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckLibraryExists.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/CheckSymbolExists.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-C.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU-CXX.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Compiler/GNU.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindFontconfig.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindFreetype.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindOpenGL.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindPackageMessage.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindPkgConfig.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindThreads.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/FindX11.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/GNUInstallDirs.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-C.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -44,18 +32,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Platform/Linux.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/Platform/UnixPaths.cmake"
   "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/ProcessorCount.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/SelectLibraryConfigurations.cmake"
-  "/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/share/cmake-3.14/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.14.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.3/CMakeSystem.cmake"
-  "../glfw-3.3/CMakeLists.txt"
-  "../glfw-3.3/cmake_uninstall.cmake.in"
-  "../glfw-3.3/src/CMakeLists.txt"
-  "../glfw-3.3/src/glfw3.pc.in"
-  "../glfw-3.3/src/glfw3Config.cmake.in"
-  "../glfw-3.3/src/glfw_config.h.in"
   )
 
 # The corresponding makefile is:
@@ -67,13 +47,9 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-3.3/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-3.3/src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake"
-  "glfw-3.3/CMakeFiles/uninstall.dir/DependInfo.cmake"
-  "glfw-3.3/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )

@@ -1,3 +1,6 @@
 [submodule "WakeofTimeEngine/ext/memory"]
 	path = WakeofTimeEngine/ext/memory
 	url = https://github.com/foonathan/memory
+[submodule "WakeofTimeEngine/memory"]
+	path = WakeofTimeEngine/memory
+	url = https://github.com/foonathan/memory

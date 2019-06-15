@@ -5,7 +5,7 @@
 		<Option title="GLFW"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\glfw-3.3\;CMake Files\glfw-3.3\src\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\memory\;CMake Files\memory\cmake\;CMake Files\memory\cmake\comp\;CMake Files\memory\src\;CMake Files\memory\tool\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\comp.downloaded\;CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\;CMake Files\cmake-build-debug\comp.downloaded\cpp11_lib\;CMake Files\cmake-build-debug\comp.downloaded\ts\;CMake Files\cmake-build-debug\comp.downloaded\env\;CMake Files\cmake-build-debug\comp.downloaded\ext\;CMake Files\glfw-3.3\;CMake Files\glfw-3.3\src\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/glfw-3.3"/>
@@ -171,6 +171,69 @@
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\memory\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/cmake/compatibility.cmake">
+			<Option virtualFolder="CMake Files\memory\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/cmake/configuration.cmake">
+			<Option virtualFolder="CMake Files\memory\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/cmake/comp/comp_base.cmake">
+			<Option virtualFolder="CMake Files\memory\cmake\comp\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\memory\src\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/src/config.hpp.in">
+			<Option virtualFolder="CMake Files\memory\src\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/memory/tool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\memory\tool\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/alignas.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/alignof.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/constexpr.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/literal_op.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/noexcept.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/rvalue_ref.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lang/thread_local.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lang\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lib/get_new_handler.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lib\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lib/max_align_t.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lib\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/cpp11_lib/mutex.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\cpp11_lib\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/ts/pmr.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\ts\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/env/exception_support.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\env\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/env/hosted_implementation.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\env\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/comp.downloaded/ext/clz.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\comp.downloaded\ext\"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/glfw-3.3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\glfw-3.3\"/>
