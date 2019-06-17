@@ -1,8 +1,18 @@
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "C"
   "CXX"
   )
 # The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad.c" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.o"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../deps"
+  )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o"
@@ -12,6 +22,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../deps"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,7 @@
 
 class renderer {
 public:
-    int renderloop();
+    void renderloop();
 
 };
 

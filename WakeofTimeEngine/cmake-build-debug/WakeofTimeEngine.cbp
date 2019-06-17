@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -57,6 +58,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -84,13 +86,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/ObjectPool.h">
-			<Option target="WakeofTimeEngine"/>
-		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.hpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad.c">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp">
@@ -100,9 +102,6 @@
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h">
-			<Option target="WakeofTimeEngine"/>
-		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/test.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">

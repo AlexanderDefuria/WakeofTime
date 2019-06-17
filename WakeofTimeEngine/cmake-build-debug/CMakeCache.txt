@@ -379,6 +379,12 @@ GLFW_USE_WAYLAND:BOOL=OFF
 //Assume the Vulkan loader is linked with the application
 GLFW_VULKAN_STATIC:BOOL=OFF
 
+//Value Computed by CMake
+Glad_BINARY_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/glad
+
+//Value Computed by CMake
+Glad_SOURCE_DIR:STATIC=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/glad
+
 //Path to a library.
 MATH_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 

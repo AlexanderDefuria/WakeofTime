@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/foonathan_memory_node_size_debugger.dir/node_size_debugger.cpp.o  -o nodesize_dbg 

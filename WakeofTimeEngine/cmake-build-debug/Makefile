@@ -150,6 +150,33 @@ common/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.s
 .PHONY : common/shader.cpp.s
 
+deps/glad.o: deps/glad.c.o
+
+.PHONY : deps/glad.o
+
+# target to build an object file
+deps/glad.c.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.o
+.PHONY : deps/glad.c.o
+
+deps/glad.i: deps/glad.c.i
+
+.PHONY : deps/glad.i
+
+# target to preprocess a source file
+deps/glad.c.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.i
+.PHONY : deps/glad.c.i
+
+deps/glad.s: deps/glad.c.s
+
+.PHONY : deps/glad.s
+
+# target to generate assembly for a file
+deps/glad.c.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.s
+.PHONY : deps/glad.c.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... common/shader.o"
 	@echo "... common/shader.i"
 	@echo "... common/shader.s"
+	@echo "... deps/glad.o"
+	@echo "... deps/glad.i"
+	@echo "... deps/glad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
