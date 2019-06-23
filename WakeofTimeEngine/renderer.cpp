@@ -1,110 +1,118 @@
+#include "renderer.h"
+#include <iostream>
+#include <vector>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include "linmath.h"
-#include "renderer.h"
 
-#include <stdlib.h>
-#include <stdio.h>
-static const struct
+
+struct Point2D
 {
-    float x, y;
-    float r, g, b;
-} vertices[3] =
-        {
-                { -0.6f, -0.4f, 1.f, 0.f, 0.f },
-                {  0.6f, -0.4f, 0.f, 1.f, 0.f },
-                {   0.f,  0.6f, 0.f, 0.f, 1.f }
-        };
-static const char* vertex_shader_text =
-        "#version 110\n"
-        "uniform mat4 MVP;\n"
-        "attribute vec3 vCol;\n"
-        "attribute vec2 vPos;\n"
-        "varying vec3 color;\n"
-        "void main()\n"
-        "{\n"
-        "    gl_Position = MVP * vec4(vPos, 0.0, 1.0);\n"
-        "    color = vCol;\n"
-        "}\n";
-static const char* fragment_shader_text =
-        "#version 110\n"
-        "varying vec3 color;\n"
-        "void main()\n"
-        "{\n"
-        "    gl_FragColor = vec4(color, 1.0);\n"
-        "}\n";
-static void error_callback(int error, const char* description)
-{
-    fprintf(stderr, "Error: %s\n", description);
-}
-static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
-{
-    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
-        glfwSetWindowShouldClose(window, GLFW_TRUE);
-}
-void renderer::renderloop()
-{
-    GLFWwindow* window;
-    GLuint vertex_buffer, vertex_shader, fragment_shader, program;
-    GLint mvp_location, vpos_location, vcol_location;
-    glfwSetErrorCallback(error_callback);
-    if (!glfwInit())
-        exit(EXIT_FAILURE);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 2);
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
-    window = glfwCreateWindow(640, 480, "Simple example", NULL, NULL);
-    if (!window)
+    double m_x;
+    double m_y;
+
+    Point2D(int x, int y) : m_x(x), m_y(y)
     {
-        glfwTerminate();
-        exit(EXIT_FAILURE);
+
     }
-    glfwSetKeyCallback(window, key_callback);
-    glfwMakeContextCurrent(window);
-    gladLoadGL();
-    glfwSwapInterval(1);
-    // NOTE: OpenGL error checks have been omitted for brevity
-    glGenBuffers(1, &vertex_buffer);
-    glBindBuffer(GL_ARRAY_BUFFER, vertex_buffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
-    vertex_shader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertex_shader, 1, &vertex_shader_text, NULL);
-    glCompileShader(vertex_shader);
-    fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragment_shader, 1, &fragment_shader_text, NULL);
-    glCompileShader(fragment_shader);
-    program = glCreateProgram();
-    glAttachShader(program, vertex_shader);
-    glAttachShader(program, fragment_shader);
-    glLinkProgram(program);
-    mvp_location = glGetUniformLocation(program, "MVP");
-    vpos_location = glGetAttribLocation(program, "vPos");
-    vcol_location = glGetAttribLocation(program, "vCol");
-    glEnableVertexAttribArray(vpos_location);
-    glVertexAttribPointer(vpos_location, 2, GL_FLOAT, GL_FALSE,
-                          sizeof(vertices[0]), (void*) 0);
-    glEnableVertexAttribArray(vcol_location);
-    glVertexAttribPointer(vcol_location, 3, GL_FLOAT, GL_FALSE,
-                          sizeof(vertices[0]), (void*) (sizeof(float) * 2));
-    while (!glfwWindowShouldClose(window))
+};
+
+void render()
+{
+    glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+
+
+
+    std::vector<Point2D> subject;
+    subject.emplace_back(Point2D(-70, 0));
+    subject.emplace_back(Point2D(-70, -70));
+    subject.emplace_back(Point2D(0, -70));
+    subject.emplace_back(Point2D(0, 0));
+
+    std::vector<Point2D> clip;
+    clip.emplace_back(Point2D(50, 0));
+    clip.emplace_back(Point2D(50, 50));
+    clip.emplace_back(Point2D(0, 50));
+    clip.emplace_back(Point2D(0,0));
+
+
+    std::vector<std::vector<Point2D> > vPolygon;
+    vPolygon.push_back(subject);
+    vPolygon.push_back(clip);
+
+
+    int sizei = (int)vPolygon.size();
+    for (int i = 0; i < sizei; ++i)
     {
-        float ratio;
-        int width, height;
-        mat4x4 m, p, mvp;
-        glfwGetFramebufferSize(window, &width, &height);
-        ratio = width / (float) height;
-        glViewport(0, 0, width, height);
-        glClear(GL_COLOR_BUFFER_BIT);
-        mat4x4_identity(m);
-        mat4x4_rotate_Z(m, m, (float) glfwGetTime());
-        mat4x4_ortho(p, -ratio, ratio, -1.f, 1.f, 1.f, -1.f);
-        mat4x4_mul(mvp, p, m);
-        glUseProgram(program);
-        glUniformMatrix4fv(mvp_location, 1, GL_FALSE, (const GLfloat*) mvp);
-        glDrawArrays(GL_TRIANGLES, 0, 3);
+        glLineWidth(2.0);
+        glBegin(GL_POLYGON);
+
+        auto polygon = vPolygon[i];
+        int sizej = (int)polygon.size();
+        for (int j = 0; j < sizej; ++j)
+        {
+            auto coordX = polygon[j].m_x;
+            auto coordY = polygon[j].m_y;
+
+            printf("%f\t%f\n", coordX, coordY);
+
+            glColor3f(0x04, 0x02, 0x01);
+
+            glVertex2f((float)(coordX) / 100, (float)(coordY) / 100);
+        }
+
+        glEnd();
+    }
+}
+
+
+void renderer::renderloop(){
+
+    GLFWwindow *window;
+
+    // Initialize the library
+    if (!glfwInit()) {
+        std::cout << "Failed to initialize GLFW!\n";
+        return;
+    }
+
+    // Create a windowed mode window and its OpenGL context
+    window = glfwCreateWindow(1920, 1080, "base", glfwGetPrimaryMonitor(), NULL);
+    if (!window) {
+        glfwTerminate();
+
+        std::cout << "Failed to create window using GLFW!\n";
+        return;
+    }
+
+    // Make the window's context current
+    glfwMakeContextCurrent(window);
+
+    if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress)) {
+        std::cout << "Failed to initialize OpenGL context" << std::endl;
+        return;
+    }
+
+    // Loop until the user closes the window
+    while (!glfwWindowShouldClose(window)) {
+        // if Esc is pressed, close the window
+        if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
+            glfwSetWindowShouldClose(window, GLFW_TRUE);
+        }
+
+        // render
+        render();
+
+        // Swap front and back buffers
         glfwSwapBuffers(window);
+
+        // Poll for and process events
         glfwPollEvents();
     }
-    glfwDestroyWindow(window);
+
     glfwTerminate();
+
     exit(EXIT_SUCCESS);
+
 }
+

@@ -10,22 +10,16 @@
 KHR/khrplatform.h
 -
 
-../deps/linmath.h
-math.h
--
-
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp
+renderer.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
+iostream
+-
+vector
+-
 glad/glad.h
 -
 GLFW/glfw3.h
--
-linmath.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/linmath.h
-renderer.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
-stdlib.h
--
-stdio.h
 -
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h

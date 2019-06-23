@@ -11,7 +11,6 @@ CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../renderer.h
 
 CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../deps/glad/glad.h
-CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../deps/linmath.h
 CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../renderer.cpp
 CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../renderer.h
 

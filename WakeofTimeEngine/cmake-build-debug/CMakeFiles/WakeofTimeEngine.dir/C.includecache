@@ -6,23 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../deps/glad/glad.h
-KHR/khrplatform.h
--
-
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad.c
-stdio.h
--
-stdlib.h
--
-string.h
--
-glad/glad.h
--
-windows.h
--
-winapifamily.h
--
-dlfcn.h
--
-
