@@ -1,1 +1,1 @@
-/usr/bin/c++   -O0 -g   CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.o CMakeFiles/WakeofTimeEngine.dir/main.cpp.o CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o  -o WakeofTimeEngine -lglfw -lGLEW -lGLU -lGL -ldl 
+/usr/bin/c++   -O0 -g   CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o CMakeFiles/WakeofTimeEngine.dir/main.cpp.o CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o  -o WakeofTimeEngine -lglfw -lGLEW -lGLU -lGL -ldl 

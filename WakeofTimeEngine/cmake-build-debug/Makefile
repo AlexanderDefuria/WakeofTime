@@ -123,59 +123,32 @@ WakeofTimeEngine/fast:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/build
 .PHONY : WakeofTimeEngine/fast
 
-common/shader.o: common/shader.cpp.o
+deps/glad/glad.o: deps/glad/glad.c.o
 
-.PHONY : common/shader.o
-
-# target to build an object file
-common/shader.cpp.o:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o
-.PHONY : common/shader.cpp.o
-
-common/shader.i: common/shader.cpp.i
-
-.PHONY : common/shader.i
-
-# target to preprocess a source file
-common/shader.cpp.i:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.i
-.PHONY : common/shader.cpp.i
-
-common/shader.s: common/shader.cpp.s
-
-.PHONY : common/shader.s
-
-# target to generate assembly for a file
-common/shader.cpp.s:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.s
-.PHONY : common/shader.cpp.s
-
-deps/glad.o: deps/glad.c.o
-
-.PHONY : deps/glad.o
+.PHONY : deps/glad/glad.o
 
 # target to build an object file
-deps/glad.c.o:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.o
-.PHONY : deps/glad.c.o
+deps/glad/glad.c.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o
+.PHONY : deps/glad/glad.c.o
 
-deps/glad.i: deps/glad.c.i
+deps/glad/glad.i: deps/glad/glad.c.i
 
-.PHONY : deps/glad.i
+.PHONY : deps/glad/glad.i
 
 # target to preprocess a source file
-deps/glad.c.i:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.i
-.PHONY : deps/glad.c.i
+deps/glad/glad.c.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.i
+.PHONY : deps/glad/glad.c.i
 
-deps/glad.s: deps/glad.c.s
+deps/glad/glad.s: deps/glad/glad.c.s
 
-.PHONY : deps/glad.s
+.PHONY : deps/glad/glad.s
 
 # target to generate assembly for a file
-deps/glad.c.s:
-	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad.c.s
-.PHONY : deps/glad.c.s
+deps/glad/glad.c.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.s
+.PHONY : deps/glad/glad.c.s
 
 main.o: main.cpp.o
 
@@ -240,12 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... WakeofTimeEngine"
 	@echo "... edit_cache"
-	@echo "... common/shader.o"
-	@echo "... common/shader.i"
-	@echo "... common/shader.s"
-	@echo "... deps/glad.o"
-	@echo "... deps/glad.i"
-	@echo "... deps/glad.s"
+	@echo "... deps/glad/glad.o"
+	@echo "... deps/glad/glad.i"
+	@echo "... deps/glad/glad.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

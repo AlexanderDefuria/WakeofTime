@@ -16,11 +16,16 @@ struct Point2D
     }
 };
 
+GLubyte rasters[24] = {
+        0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00,
+        0xff, 0x00, 0xff, 0x00, 0xc0, 0x00, 0xc0, 0x00, 0xc0, 0x00,
+        0xff, 0xc0, 0xff, 0xc0};
+
+
 void render()
 {
     glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
-
 
 
     std::vector<Point2D> subject;
@@ -54,7 +59,7 @@ void render()
             auto coordX = polygon[j].m_x;
             auto coordY = polygon[j].m_y;
 
-            printf("%f\t%f\n", coordX, coordY);
+            //printf("%f\t%f\n", coordX, coordY);
 
             glColor3f(0x04, 0x02, 0x01);
 
@@ -68,6 +73,7 @@ void render()
 
 void renderer::renderloop(){
 
+    GLFWmonitor *primary = glfwGetPrimaryMonitor();
     GLFWwindow *window;
 
     // Initialize the library
@@ -77,13 +83,22 @@ void renderer::renderloop(){
     }
 
     // Create a windowed mode window and its OpenGL context
-    window = glfwCreateWindow(1920, 1080, "base", glfwGetPrimaryMonitor(), NULL);
+    glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
+    window = glfwCreateWindow(1280, 720, "base", primary, NULL);
     if (!window) {
         glfwTerminate();
 
         std::cout << "Failed to create window using GLFW!\n";
         return;
     }
+
+    int width, height;
+    glfwGetWindowSize(window, &width, &height);
+    std::cout << "Window \t Width: ";
+    std::cout << width;
+    std::cout << "px\tHeight: ";
+    std::cout << height;
+    std::cout << "px\n";
 
     // Make the window's context current
     glfwMakeContextCurrent(window);
