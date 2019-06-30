@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../deps/glad/glad.h
-KHR/khrplatform.h
--
-
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp
 renderer.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
@@ -20,6 +16,14 @@ vector
 glad/glad.h
 -
 GLFW/glfw3.h
+-
+fstream
+-
+sstream
+-
+glm/gtc/matrix_transform.hpp
+-
+SOIL/SOIL.h
 -
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h

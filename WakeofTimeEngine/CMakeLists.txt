@@ -11,11 +11,11 @@ set(option value CACHE INTERNAL "" FORCE)
 set(GLAD "deps/glad/glad.h"
         "deps/glad/glad.c")
 
-include_directories("deps")
+link_directories("deps/glad")
 
-add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderer.cpp renderer.h)
+add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderer.cpp renderer.h )
 
-target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl)
+target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl -lSOIL)
 
 find_package(OpenGL REQUIRED)
 

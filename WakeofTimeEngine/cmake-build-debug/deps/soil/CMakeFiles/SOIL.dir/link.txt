@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/SOIL.dir/image_DXT.c.o CMakeFiles/SOIL.dir/image_helper.c.o CMakeFiles/SOIL.dir/SOIL.c.o CMakeFiles/SOIL.dir/stb_image_aug.c.o CMakeFiles/SOIL.dir/test_SOIL.cpp.o  -o SOIL  -L/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad 

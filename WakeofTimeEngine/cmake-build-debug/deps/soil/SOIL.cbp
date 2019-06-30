@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SOIL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\soil\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/SOIL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 SOIL"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SOIL/fast">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/SOIL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 SOIL/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/soil/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/SOIL.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/SOIL.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/image_DXT.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/image_DXT.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/image_helper.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/image_helper.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/stb_image_aug.c">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/stb_image_aug.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/stbi_DDS_aug.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/stbi_DDS_aug_c.h">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/test_SOIL.cpp">
+			<Option target="SOIL"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/soil/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\soil\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
