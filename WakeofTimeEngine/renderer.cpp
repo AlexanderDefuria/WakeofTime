@@ -249,10 +249,10 @@ void renderer::renderloop(){
 
     // Two UV coordinatesfor each vertex. They were created with Blender.
     static const GLfloat g_uv_buffer_data[] = {
-            1.0f, -1.0f,
+            1.0f, .0f,
             1.0f, 1.0f,
-            -1.0f, 1.0f,
-            -1.0f, -1.0f,
+            .0f, 1.0f,
+            .0f, .0f,
 
     };
 
