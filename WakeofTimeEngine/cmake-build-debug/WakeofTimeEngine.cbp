@@ -84,6 +84,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>

@@ -1,19 +1,17 @@
+//
+// Created by alexander on 02/07/19.
+//
 
-#include <stdio.h>
-#include <string>
-#include <vector>
+#include "shader.h"
 #include <iostream>
+#include <vector>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 #include <fstream>
-#include <algorithm>
 #include <sstream>
-using namespace std;
-
-#include <stdlib.h>
-#include <string.h>
-
-#include <GL/glew.h>
-
-#include "shader.hpp"
+#include <glm/gtc/matrix_transform.hpp>
+#include <SOIL/SOIL.h>
+#include <chrono>
 
 GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path){
 
@@ -48,7 +46,6 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
     GLint Result = GL_FALSE;
     int InfoLogLength;
 
-
     // Compile Vertex Shader
     printf("Compiling shader : %s\n", vertex_file_path);
     char const * VertexSourcePointer = VertexShaderCode.c_str();
@@ -64,8 +61,6 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
         printf("%s\n", &VertexShaderErrorMessage[0]);
     }
 
-
-
     // Compile Fragment Shader
     printf("Compiling shader : %s\n", fragment_file_path);
     char const * FragmentSourcePointer = FragmentShaderCode.c_str();
@@ -80,8 +75,6 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
         glGetShaderInfoLog(FragmentShaderID, InfoLogLength, NULL, &FragmentShaderErrorMessage[0]);
         printf("%s\n", &FragmentShaderErrorMessage[0]);
     }
-
-
 
     // Link the program
     printf("Linking program\n");
@@ -99,15 +92,13 @@ GLuint LoadShaders(const char * vertex_file_path,const char * fragment_file_path
         printf("%s\n", &ProgramErrorMessage[0]);
     }
 
-
     glDetachShader(ProgramID, VertexShaderID);
     glDetachShader(ProgramID, FragmentShaderID);
 
     glDeleteShader(VertexShaderID);
     glDeleteShader(FragmentShaderID);
 
+    printf("Done shaders\n");
+
     return ProgramID;
 }
-
-
-

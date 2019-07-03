@@ -13,6 +13,8 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.o"
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o"
   )

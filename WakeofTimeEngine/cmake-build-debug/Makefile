@@ -123,6 +123,60 @@ WakeofTimeEngine/fast:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/build
 .PHONY : WakeofTimeEngine/fast
 
+common/controls.o: common/controls.cpp.o
+
+.PHONY : common/controls.o
+
+# target to build an object file
+common/controls.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.o
+.PHONY : common/controls.cpp.o
+
+common/controls.i: common/controls.cpp.i
+
+.PHONY : common/controls.i
+
+# target to preprocess a source file
+common/controls.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.i
+.PHONY : common/controls.cpp.i
+
+common/controls.s: common/controls.cpp.s
+
+.PHONY : common/controls.s
+
+# target to generate assembly for a file
+common/controls.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.s
+.PHONY : common/controls.cpp.s
+
+common/shader.o: common/shader.cpp.o
+
+.PHONY : common/shader.o
+
+# target to build an object file
+common/shader.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o
+.PHONY : common/shader.cpp.o
+
+common/shader.i: common/shader.cpp.i
+
+.PHONY : common/shader.i
+
+# target to preprocess a source file
+common/shader.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.i
+.PHONY : common/shader.cpp.i
+
+common/shader.s: common/shader.cpp.s
+
+.PHONY : common/shader.s
+
+# target to generate assembly for a file
+common/shader.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.s
+.PHONY : common/shader.cpp.s
+
 deps/glad/glad.o: deps/glad/glad.c.o
 
 .PHONY : deps/glad/glad.o
@@ -213,6 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... WakeofTimeEngine"
 	@echo "... edit_cache"
+	@echo "... common/controls.o"
+	@echo "... common/controls.i"
+	@echo "... common/controls.s"
+	@echo "... common/shader.o"
+	@echo "... common/shader.i"
+	@echo "... common/shader.s"
 	@echo "... deps/glad/glad.o"
 	@echo "... deps/glad/glad.i"
 	@echo "... deps/glad/glad.s"

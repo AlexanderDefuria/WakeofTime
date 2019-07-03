@@ -4,9 +4,17 @@
 CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o: ../deps/glad/glad.h
 CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o: ../deps/glad/glad.c
 
+CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.o: ../common/controls.cpp
+CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.o: ../common/controls.h
+
+CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o: ../common/shader.cpp
+CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o: ../common/shader.h
+
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../renderer.h
 
+CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../common/controls.h
+CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../common/shader.h
 CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../renderer.cpp
 CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o: ../renderer.h
 

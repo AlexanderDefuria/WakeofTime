@@ -6,25 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp
-renderer.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
-iostream
--
-vector
--
-glad/glad.h
--
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp
+controls.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
 GLFW/glfw3.h
 -
-fstream
--
-sstream
+glm/glm.hpp
 -
 glm/gtc/matrix_transform.hpp
 -
-SOIL/SOIL.h
+iostream
 -
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
+glm/glm.hpp
+-
+GLFW/glfw3.h
+-
 
