@@ -84,16 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.h">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c">
@@ -105,10 +105,10 @@
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
-		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h">
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">

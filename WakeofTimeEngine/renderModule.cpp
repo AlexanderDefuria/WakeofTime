@@ -1,18 +1,16 @@
-#include "renderer.h"
+#include "renderModule.h"
 #include <iostream>
 #include <vector>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <fstream>
-#include <sstream>
 #include <glm/gtc/matrix_transform.hpp>
 #include <SOIL/SOIL.h>
 #include <chrono>
-#include "common/controls.h"
-#include "common/shader.h"
+#include "Graphics/controls.h"
+#include "Graphics/shader.h"
 
 
-void renderer::renderloop(){
+void renderModule::renderloop(){
 
     GLFWmonitor *primary = glfwGetPrimaryMonitor();
     GLFWwindow *window;
@@ -35,7 +33,7 @@ void renderer::renderloop(){
 
     int width, height;
     glfwGetWindowSize(window, &width, &height);
-    std::cout << "Window \t Width: ";
+    std::cout << "Window: \t Width: ";
     std::cout << width;
     std::cout << "px\tHeight: ";
     std::cout << height;
@@ -60,17 +58,17 @@ void renderer::renderloop(){
     // Accept fragment if it closer to the camera than the former one
     glDepthFunc(GL_LESS);
 
-    GLuint programID = LoadShaders( "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/shader/vertex.glsl", "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/shader/fragment.glsl" );
+    GLuint shaderID = LoadShaders( "../shader/vertex.glsl", "../shader/fragment.glsl" );
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    glUseProgram(programID);
+    glUseProgram(shaderID);
 
     // Get a handle for our "MVP" uniform
-    GLuint MatrixID = glGetUniformLocation(programID, "MVP");
+    GLuint MatrixID = glGetUniformLocation(shaderID, "MVP");
 
 
     int awidth, aheight;
     unsigned char* image =
-            SOIL_load_image("/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/bridge.bmp", &awidth, &aheight, 0, SOIL_LOAD_RGB);
+            SOIL_load_image("../resources/images/bridge.bmp", &awidth, &aheight, 0, SOIL_LOAD_RGB);
 
     GLuint VertexArrayID;
     glGenVertexArrays(1, &VertexArrayID);
@@ -98,7 +96,7 @@ void renderer::renderloop(){
 
     GLuint Texture = textureID;
     // Get a handle for our "myTextureSampler" uniform
-    GLuint TextureID  = glGetUniformLocation(programID, "myTextureSampler");
+    GLuint TextureID  = glGetUniformLocation(shaderID, "myTextureSampler");
 
     // Our vertices. Tree consecutive floats give a 3D vertex; Three consecutive vertices give a triangle.
     // A cube has 6 faces with 2 triangles each, so this makes 6*2=12 triangles, and 12*3 vertices
@@ -128,15 +126,17 @@ void renderer::renderloop(){
     glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(g_uv_buffer_data), g_uv_buffer_data, GL_STATIC_DRAW);
 
+
+    glfwSwapInterval(1);
+
     do{
         auto start = std::chrono::high_resolution_clock::now();
-
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         // Use our shader
-        glUseProgram(programID);
+        glUseProgram(shaderID);
 
         computeMatricesFromInputs(window);
         glm::mat4 ProjectionMatrix = getProjectionMatrix();
@@ -207,7 +207,7 @@ void renderer::renderloop(){
     // Cleanup VBO and shader
     glDeleteBuffers(1, &vertexbuffer);
     glDeleteBuffers(1, &uvbuffer);
-    glDeleteProgram(programID);
+    glDeleteProgram(shaderID);
     glDeleteTextures(1, &Texture);
     glDeleteVertexArrays(1, &VertexArrayID);
 

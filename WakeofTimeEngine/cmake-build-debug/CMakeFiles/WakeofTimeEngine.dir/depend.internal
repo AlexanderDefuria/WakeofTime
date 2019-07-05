@@ -4,17 +4,17 @@
 CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o
  ../deps/glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c
-CMakeFiles/WakeofTimeEngine.dir/common/controls.cpp.o
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
-CMakeFiles/WakeofTimeEngine.dir/common/shader.cpp.o
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.cpp
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
-CMakeFiles/WakeofTimeEngine.dir/renderer.cpp.o
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/shader.h
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.cpp
- /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderer.h
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.cpp
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h

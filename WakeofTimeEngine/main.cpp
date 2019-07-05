@@ -2,11 +2,11 @@
 #include <stdio.h>
 #include <iostream>
 #include <chrono>  // for high_resolution_clock
-#include "renderer.h"
+#include "renderModule.h"
 
 int main( void )
 {
-    renderer* render = new renderer;
+    renderModule* render = new renderModule;
     render->renderloop();
     delete render;
 }

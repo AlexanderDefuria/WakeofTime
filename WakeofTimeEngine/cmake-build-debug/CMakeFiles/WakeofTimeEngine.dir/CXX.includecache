@@ -6,21 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.cpp
-controls.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+glm/glm.hpp
+-
 GLFW/glfw3.h
 -
-glm/glm.hpp
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
+glad/glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/glad/glad.h
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.cpp
+renderModule.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+iostream
+-
+vector
+-
+glad/glad.h
+-
+GLFW/glfw3.h
 -
 glm/gtc/matrix_transform.hpp
 -
-iostream
+SOIL/SOIL.h
 -
+chrono
+-
+Graphics/controls.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+Graphics/shader.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/common/controls.h
-glm/glm.hpp
--
-GLFW/glfw3.h
--
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
 

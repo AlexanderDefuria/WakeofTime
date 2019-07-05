@@ -39,9 +39,6 @@ float mouseSpeed = 0.005f;
 
 glm::vec3 focus = glm::vec3( 0.0f, 0.0f, 0.0f );
 glm::vec3 cameraOffset = glm::vec3( 0.0f, 0.0f, 4.0f );
-glm::vec3 right = glm::vec3( 1.0f, 0.0f, 0.0f );
-glm::vec3 up    = glm::vec3( 0.0f, -1.0f, 0.0f );
-
 
 
 void computeMatricesFromInputs(GLFWwindow* window){
@@ -50,6 +47,9 @@ void computeMatricesFromInputs(GLFWwindow* window){
     glfwGetWindowSize(window, &width, &height);
 
     // Compute time difference between current and last frame
+
+    glm::vec3 right = glm::vec3( 1.0f, 0.0f, 0.0f );
+    glm::vec3 up    = glm::vec3( 0.0f, -1.0f, 0.0f );
 
     // Move forward
     if (glfwGetKey( window, GLFW_KEY_W ) == GLFW_PRESS){

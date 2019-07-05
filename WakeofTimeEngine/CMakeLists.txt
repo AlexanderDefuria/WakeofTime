@@ -8,12 +8,12 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
 set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
 set(option value CACHE INTERNAL "" FORCE)
 
-set(GLAD "deps/glad/glad.h"
-        "deps/glad/glad.c")
+set(GLAD "${PROJECT_SOURCE_DIR}/deps/glad/glad.h"
+        "${PROJECT_SOURCE_DIR}/deps/glad/glad.c")
 
-link_directories("deps/glad")
+link_directories("${PROJECT_SOURCE_DIR}/deps/glad")
 
-add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderer.cpp renderer.h common/controls.cpp common/controls.h common/shader.cpp common/shader.h)
+add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderModule.cpp renderModule.h Graphics/controls.cpp Graphics/controls.h Graphics/shader.cpp Graphics/shader.h)
 
 target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl -lSOIL)
 
