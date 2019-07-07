@@ -58,6 +58,9 @@ void renderModule::renderloop(){
     // Accept fragment if it closer to the camera than the former one
     glDepthFunc(GL_LESS);
 
+    glEnable(GL_BLEND);
+
+
     GLuint shaderID = LoadShaders( "../shader/vertex.glsl", "../shader/fragment.glsl" );
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glUseProgram(shaderID);
@@ -68,7 +71,7 @@ void renderModule::renderloop(){
 
     int awidth, aheight;
     unsigned char* image =
-            SOIL_load_image("../resources/images/bridge.bmp", &awidth, &aheight, 0, SOIL_LOAD_RGB);
+            SOIL_load_image("../resources/images/test.png", &awidth, &aheight, 0, SOIL_LOAD_RGBA);
 
     GLuint VertexArrayID;
     glGenVertexArrays(1, &VertexArrayID);
@@ -82,7 +85,7 @@ void renderModule::renderloop(){
 
 
     // Give the image to OpenGL
-    glTexImage2D(GL_TEXTURE_2D, 0,GL_RGB, awidth, aheight, 0, GL_BGR, GL_UNSIGNED_BYTE, image);
+    glTexImage2D(GL_TEXTURE_2D, 0,GL_RGBA, awidth, aheight, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
 
     // ... nice trilinear filtering ...
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
@@ -134,6 +137,8 @@ void renderModule::renderloop(){
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+        glBlendFunc(GL_SRC_COLOR, GL_ONE);
 
         // Use our shader
         glUseProgram(shaderID);
