@@ -3,8 +3,9 @@
 //
 
 #include "controls.h"
+#include "../renderModule.h"
 // Include GLFW
-#include <GLFW/glfw3.h>
+//#include <GLFW/glfw3.h>
 
 // Include GLM
 #include <glm/glm.hpp>
@@ -32,10 +33,10 @@ float verticalAngle = 0.0f;
 // Initial Field of View
 float initialFoV = 40.0f;
 
-float speed = 0.025f; // 3 units / second
-float mouseSpeed = 0.005f;
+float speedbase = 0.0025f; // 3 units / second
+float speed;
 
-
+int renderModule::frametime;
 
 glm::vec3 focus = glm::vec3( 0.0f, 0.0f, 0.0f );
 glm::vec3 cameraOffset = glm::vec3( 0.0f, -3.5f, 2.0f );
@@ -45,6 +46,8 @@ void computeMatricesFromInputs(GLFWwindow* window){
 
     int width, height;
     glfwGetWindowSize(window, &width, &height);
+
+    speed = speedbase / renderModule::frametime;
 
     // Compute time difference between current and last frame
 

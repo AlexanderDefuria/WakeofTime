@@ -10,12 +10,16 @@
 
 class renderModule {
 public:
+    ~renderModule();
     void renderloop();
     void setup();
 
     GLFWmonitor *primary;
     GLFWwindow *window;
     int width, height;
+
+
+    static int frametime;
 
 private:
 

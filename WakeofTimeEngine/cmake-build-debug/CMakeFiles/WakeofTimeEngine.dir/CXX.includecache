@@ -6,3 +6,25 @@
 
 #IncludeRegexTransform: 
 
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp
+controls.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+../renderModule.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+glm/glm.hpp
+-
+glm/gtc/matrix_transform.hpp
+-
+iostream
+-
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+glm/glm.hpp
+-
+GLFW/glfw3.h
+-
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+GLFW/glfw3.h
+-
+

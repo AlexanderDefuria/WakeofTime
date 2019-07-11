@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/renderModule.cpp" line="226" />
+    <bookmark url="file://$PROJECT_DIR$/renderModule.cpp" line="216" />
   </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
@@ -45,33 +45,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b7b4e5-bdf6-46b6-b115-a559efe5cc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphics/graphic2D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphics/graphic2D.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/images/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graphics/controls.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/controls.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deps/linmath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/renderModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/images/bridge.bmp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/glfw-3.3/src/CMakeFiles/" />
@@ -100,25 +78,28 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Graphics/controls.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-7">
-                  <caret line="47" selection-start-line="47" selection-end-line="47" />
+                <state relative-caret-position="533">
+                  <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
                   <folding>
+                    <element signature="e#44#65#0" expanded="true" />
                     <element signature="e#122#144#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/renderModule.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="199" column="70" selection-start-line="199" selection-start-column="70" selection-end-line="199" selection-end-column="70" />
+                <state relative-caret-position="278">
+                  <caret line="202" column="32" lean-forward="true" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
                   <folding>
                     <element signature="e#0#19#0" expanded="true" />
+                    <element signature="e#302#3883#0" />
+                    <element signature="e#6810#6844#0" />
                   </folding>
                 </state>
               </provider>
@@ -140,7 +121,7 @@
             <entry file="file://$PROJECT_DIR$/renderModule.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="173">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
@@ -152,8 +133,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/renderModule.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                <state relative-caret-position="360">
+                  <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -225,13 +206,13 @@
         <option value="$PROJECT_DIR$/Graphics/background.h" />
         <option value="$PROJECT_DIR$/Graphics/background.cpp" />
         <option value="$PROJECT_DIR$/Graphics/graphic2D.cpp" />
-        <option value="$PROJECT_DIR$/Graphics/controls.cpp" />
         <option value="$PROJECT_DIR$/Graphics/shader.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Graphics/renderloop.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/renderModule.h" />
         <option value="$PROJECT_DIR$/renderModule.cpp" />
+        <option value="$PROJECT_DIR$/Graphics/controls.cpp" />
       </list>
     </option>
   </component>
@@ -380,12 +361,12 @@
       <workItem from="1562691666609" duration="6654000" />
       <workItem from="1562785522117" duration="2415000" />
       <workItem from="1562870147487" duration="652000" />
-      <workItem from="1562870871434" duration="7179000" />
+      <workItem from="1562870871434" duration="8642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123563000" />
+    <option name="totallyTimeSpent" value="125026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -623,29 +604,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphics/renderloop.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#44#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/controls.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#122#144#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -660,25 +624,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renderModule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphics/input.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphics/input.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renderModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/renderModule.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="199" column="70" selection-start-line="199" selection-start-column="70" selection-end-line="199" selection-end-column="70" />
+        <state relative-caret-position="278">
+          <caret line="202" column="32" lean-forward="true" selection-start-line="202" selection-start-column="32" selection-end-line="202" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#302#3883#0" />
+            <element signature="e#6810#6844#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics/controls.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#44#65#0" expanded="true" />
+            <element signature="e#122#144#0" expanded="true" />
           </folding>
         </state>
       </provider>

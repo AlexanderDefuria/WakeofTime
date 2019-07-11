@@ -194,16 +194,16 @@ void renderModule::renderloop(){
 
         // TIMING END
         auto stop = std::chrono::high_resolution_clock::now();
-        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+        frametime = std::chrono::duration_cast<std::chrono::microseconds>(stop - start).count();
         std::cout << "Time taken by function: "
-                  << duration.count() << " microseconds" << std::endl;
+                  << frametime << " microseconds" << std::endl;
 
 
         // Swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
         frames++;
-        totaltime += duration.count();
+        totaltime += frametime;
 
     } // Check if the ESC key was pressed or the window was closed
     while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
@@ -212,6 +212,11 @@ void renderModule::renderloop(){
     std::cout << totaltime/frames << std::endl;
 
 
+
+
+}
+
+renderModule::~renderModule() {
     // Cleanup VBO and shader
     glDeleteBuffers(1, &vertexbuffer);
     glDeleteBuffers(1, &uvbuffer);
@@ -220,8 +225,6 @@ void renderModule::renderloop(){
     glDeleteVertexArrays(1, &VertexArrayID);
 
     glfwTerminate();
-
     exit(EXIT_SUCCESS);
-
 }
 
