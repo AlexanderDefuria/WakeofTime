@@ -150,6 +150,33 @@ Graphics/controls.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.s
 .PHONY : Graphics/controls.cpp.s
 
+Graphics/graphic2D.o: Graphics/graphic2D.cpp.o
+
+.PHONY : Graphics/graphic2D.o
+
+# target to build an object file
+Graphics/graphic2D.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o
+.PHONY : Graphics/graphic2D.cpp.o
+
+Graphics/graphic2D.i: Graphics/graphic2D.cpp.i
+
+.PHONY : Graphics/graphic2D.i
+
+# target to preprocess a source file
+Graphics/graphic2D.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.i
+.PHONY : Graphics/graphic2D.cpp.i
+
+Graphics/graphic2D.s: Graphics/graphic2D.cpp.s
+
+.PHONY : Graphics/graphic2D.s
+
+# target to generate assembly for a file
+Graphics/graphic2D.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.s
+.PHONY : Graphics/graphic2D.cpp.s
+
 Graphics/shader.o: Graphics/shader.cpp.o
 
 .PHONY : Graphics/shader.o
@@ -270,6 +297,9 @@ help:
 	@echo "... Graphics/controls.o"
 	@echo "... Graphics/controls.i"
 	@echo "... Graphics/controls.s"
+	@echo "... Graphics/graphic2D.o"
+	@echo "... Graphics/graphic2D.i"
+	@echo "... Graphics/graphic2D.s"
 	@echo "... Graphics/shader.o"
 	@echo "... Graphics/shader.i"
 	@echo "... Graphics/shader.s"

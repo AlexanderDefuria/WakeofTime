@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o"
   "CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o"
   "CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o"
+  "CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o"
   "WakeofTimeEngine.pdb"
   "WakeofTimeEngine"
 )

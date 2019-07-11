@@ -90,6 +90,12 @@
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>

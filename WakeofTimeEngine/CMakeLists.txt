@@ -13,7 +13,7 @@ set(GLAD "${PROJECT_SOURCE_DIR}/deps/glad/glad.h"
 
 link_directories("${PROJECT_SOURCE_DIR}/deps/glad")
 
-add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderModule.cpp renderModule.h Graphics/controls.cpp Graphics/controls.h Graphics/shader.cpp Graphics/shader.h)
+add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderModule.cpp renderModule.h Graphics/controls.cpp Graphics/controls.h Graphics/shader.cpp Graphics/shader.h Graphics/graphic2D.h Graphics/graphic2D.cpp)
 
 target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl -lSOIL)
 

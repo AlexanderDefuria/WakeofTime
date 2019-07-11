@@ -30,7 +30,7 @@ float horizontalAngle = 3.14f;
 // Initial vertical angle : none
 float verticalAngle = 0.0f;
 // Initial Field of View
-float initialFoV = 45.0f;
+float initialFoV = 40.0f;
 
 float speed = 0.025f; // 3 units / second
 float mouseSpeed = 0.005f;
@@ -38,7 +38,7 @@ float mouseSpeed = 0.005f;
 
 
 glm::vec3 focus = glm::vec3( 0.0f, 0.0f, 0.0f );
-glm::vec3 cameraOffset = glm::vec3( 0.0f, 0.0f, 4.0f );
+glm::vec3 cameraOffset = glm::vec3( 0.0f, -3.5f, 2.0f );
 
 
 void computeMatricesFromInputs(GLFWwindow* window){
@@ -49,15 +49,15 @@ void computeMatricesFromInputs(GLFWwindow* window){
     // Compute time difference between current and last frame
 
     glm::vec3 right = glm::vec3( 1.0f, 0.0f, 0.0f );
-    glm::vec3 up    = glm::vec3( 0.0f, -1.0f, 0.0f );
+    glm::vec3 up    = glm::vec3( 0.0f, 1.0f, 0.0f );
 
     // Move forward
     if (glfwGetKey( window, GLFW_KEY_W ) == GLFW_PRESS){
-        focus += up * speed;
+        focus -= up * speed;
     }
     // Move backward
     if (glfwGetKey( window, GLFW_KEY_S ) == GLFW_PRESS){
-        focus -= up * speed;
+        focus += up * speed;
     }
     // Strafe right
     if (glfwGetKey( window, GLFW_KEY_A ) == GLFW_PRESS){

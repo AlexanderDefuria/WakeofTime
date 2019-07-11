@@ -1,4 +1,3 @@
-#include "renderModule.h"
 #include <iostream>
 #include <vector>
 #include <glad/glad.h>
@@ -8,12 +7,15 @@
 #include <chrono>
 #include "Graphics/controls.h"
 #include "Graphics/shader.h"
+#include "Graphics/graphic2D.h"
+#include <map>
+#include "renderModule.h"
 
 
-void renderModule::renderloop(){
 
-    GLFWmonitor *primary = glfwGetPrimaryMonitor();
-    GLFWwindow *window;
+void renderModule::setup() {
+
+    primary = glfwGetPrimaryMonitor();
 
     // Initialize the library
     if (!glfwInit()) {
@@ -31,7 +33,7 @@ void renderModule::renderloop(){
         return;
     }
 
-    int width, height;
+
     glfwGetWindowSize(window, &width, &height);
     std::cout << "Window: \t Width: ";
     std::cout << width;
@@ -50,42 +52,55 @@ void renderModule::renderloop(){
     // Ensure we can capture the escape key being pressed below
     glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
 
+
+    glfwSwapInterval(0);
+
+
     // Turquoise background
     glClearColor(0.064f, 0.224f, 0.208f, 0.0f);
+    //glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
-    // Enable depth test
+    // Enable depth test.txt
     glEnable(GL_LIGHT0);
     // Accept fragment if it closer to the camera than the former one
     glDepthFunc(GL_LESS);
 
     glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_COLOR, GL_ONE);
 
 
-    GLuint shaderID = LoadShaders( "../shader/vertex.glsl", "../shader/fragment.glsl" );
+    shaderID = LoadShaders("../shader/vertex.glsl", "../shader/fragment.glsl");
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glUseProgram(shaderID);
 
     // Get a handle for our "MVP" uniform
-    GLuint MatrixID = glGetUniformLocation(shaderID, "MVP");
+    MatrixID = glGetUniformLocation(shaderID, "MVP");
 
 
-    int awidth, aheight;
-    unsigned char* image =
-            SOIL_load_image("../resources/images/test.png", &awidth, &aheight, 0, SOIL_LOAD_RGBA);
 
-    GLuint VertexArrayID;
+
+    std::map<std::string, const char *> files;
+    files["square"] = "../resources/images/test.png";
+
+
+    auto *image = new graphic2D();
+    image->load(files["square"]);
+
+
+
     glGenVertexArrays(1, &VertexArrayID);
     glBindVertexArray(VertexArrayID);
 
 
-    GLuint textureID;
     glGenTextures(1, &textureID);
     // "Bind" the newly created texture : all future texture functions will modify this texture
     glBindTexture(GL_TEXTURE_2D, textureID);
 
 
+
+
     // Give the image to OpenGL
-    glTexImage2D(GL_TEXTURE_2D, 0,GL_RGBA, awidth, aheight, 0, GL_RGBA, GL_UNSIGNED_BYTE, image);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->image);
 
     // ... nice trilinear filtering ...
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
@@ -97,51 +112,41 @@ void renderModule::renderloop(){
     glEnable(GL_TEXTURE_2D);
 
 
-    GLuint Texture = textureID;
+    Texture = textureID;
     // Get a handle for our "myTextureSampler" uniform
-    GLuint TextureID  = glGetUniformLocation(shaderID, "myTextureSampler");
+    TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
 
-    // Our vertices. Tree consecutive floats give a 3D vertex; Three consecutive vertices give a triangle.
-    // A cube has 6 faces with 2 triangles each, so this makes 6*2=12 triangles, and 12*3 vertices
-    static GLfloat g_vertex_buffer_data[] = {
-             1.0f, 1.0f, .0f, // Upper Right
-             1.0f, -1.0f, 0.f, //
-             -1.0f, -1.0f, .0f, // Bottom Left
-            -1.0f, 1.0f, .0f,   // Upper Left
-    };
 
-    // Two UV coordinatesfor each vertex. They were created with Blender.
-    static GLfloat g_uv_buffer_data[] = {
-            1.0f, .0f,
-            1.0f, 1.0f,
-            .0f, 1.0f,
-            .0f, .0f,
-    };
 
-    GLuint vertexbuffer;
     glGenBuffers(1, &vertexbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(g_vertex_buffer_data), g_vertex_buffer_data, GL_STREAM_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(image->vertex_buffer_data), image->vertex_buffer_data, GL_STREAM_DRAW);
 
 
-    GLuint uvbuffer;
     glGenBuffers(1, &uvbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(g_uv_buffer_data), g_uv_buffer_data, GL_STATIC_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(image->g_uv_buffer_data), image->g_uv_buffer_data, GL_STATIC_DRAW);
+
+    // Bind our texture in Texture Unit 0
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, Texture);
+    // Set our "myTextureSampler" sampler to use Texture Unit 0
+    glUniform1i(TextureID, 0);
+
+}
 
 
-    glfwSwapInterval(1);
+void renderModule::renderloop(){
+    int totaltime = 0;
+    int frames = 0;
 
     do{
+        // TIMING START
         auto start = std::chrono::high_resolution_clock::now();
 
         // Clear the screen
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        glBlendFunc(GL_SRC_COLOR, GL_ONE);
-
-        // Use our shader
-        glUseProgram(shaderID);
 
         computeMatricesFromInputs(window);
         glm::mat4 ProjectionMatrix = getProjectionMatrix();
@@ -154,12 +159,6 @@ void renderModule::renderloop(){
         // in the "MVP" uniform
         glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
 
-        // Bind our texture in Texture Unit 0
-        glActiveTexture(GL_TEXTURE0);
-        glBindTexture(GL_TEXTURE_2D, Texture);
-        // Set our "myTextureSampler" sampler to use Texture Unit 0
-        glUniform1i(TextureID, 0);
-
 
         // 1rst attribute buffer : vertices
         glEnableVertexAttribArray(0);
@@ -170,7 +169,7 @@ void renderModule::renderloop(){
                 GL_FLOAT,           // type
                 GL_FALSE,           // normalized?
                 0,                  // stride
-                (void*)0            // array buffer offset
+                (void*)nullptr            // array buffer offset
         );
         // 2nd attribute buffer : UVs
         glEnableVertexAttribArray(1);
@@ -181,32 +180,36 @@ void renderModule::renderloop(){
                 GL_FLOAT,                         // type
                 GL_FALSE,                         // normalized?
                 0,                                // stride
-                (void*)0                          // array buffer offset
+                (void*)nullptr                          // array buffer offset
         );
 
 
         // Draw the square !
-        glDrawArraysInstanced(GL_QUADS, 0, 4,1); // 12*3 indices starting at 0 -> 12 triangles
+        glDrawArraysInstanced(GL_QUADS, 0, 4, 1); // 12*3 indices starting at 0 -> 12 triangles
 
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);
 
 
+
+        // TIMING END
         auto stop = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-       // std::cout << "Time taken by function: "
-         //         << duration.count() << " microseconds" << std::endl;
+        std::cout << "Time taken by function: "
+                  << duration.count() << " microseconds" << std::endl;
 
 
         // Swap buffers
         glfwSwapBuffers(window);
         glfwPollEvents();
-
-        glNamedBufferSubData(vertexbuffer, 0, sizeof(g_vertex_buffer_data), g_vertex_buffer_data);
+        frames++;
+        totaltime += duration.count();
 
     } // Check if the ESC key was pressed or the window was closed
     while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
            glfwWindowShouldClose(window) == 0 );
+
+    std::cout << totaltime/frames << std::endl;
 
 
     // Cleanup VBO and shader

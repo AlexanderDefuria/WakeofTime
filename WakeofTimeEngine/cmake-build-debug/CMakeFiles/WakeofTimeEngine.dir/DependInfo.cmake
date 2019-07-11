@@ -14,6 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o"
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o"
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o"
