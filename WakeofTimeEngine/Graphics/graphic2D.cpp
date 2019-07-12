@@ -28,18 +28,16 @@ void graphic2D::loadBufferData( char *imgfilename) {
         std::istringstream iss(line);
         iss >> number;
 
-        if (iss.str() == "") {
+        if ( iss.str().empty() ) {
             vertex_complete = true;
             vertex_end = index;
         } else {
-            //std::cout << number << std::endl;
 
             if (!vertex_complete)
                 vertex_buffer_data[index] = number;
-            else {
+            else
                 g_uv_buffer_data[index - vertex_end] = number;
-                std::cout << index - vertex_end << "\t\t" << number << std::endl;
-            }
+
             index++;
 
         }

@@ -9,6 +9,7 @@
 #include <GLFW/glfw3.h>
 
 class renderModule {
+
 public:
     ~renderModule();
     void renderloop();
@@ -18,8 +19,8 @@ public:
     GLFWwindow *window;
     int width, height;
 
-
     static int frametime;
+
 
 private:
 

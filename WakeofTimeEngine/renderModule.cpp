@@ -77,14 +77,16 @@ void renderModule::setup() {
     MatrixID = glGetUniformLocation(shaderID, "MVP");
 
 
-
-
     std::map<std::string, const char *> files;
     files["square"] = "../resources/images/test.png";
 
 
+
     auto *image = new graphic2D();
     image->load(files["square"]);
+
+    auto *test = new graphic2D();
+    test->load(files["square"]);
 
 
 
@@ -101,6 +103,8 @@ void renderModule::setup() {
 
     // Give the image to OpenGL
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->image);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, test->image);
+
 
     // ... nice trilinear filtering ...
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
