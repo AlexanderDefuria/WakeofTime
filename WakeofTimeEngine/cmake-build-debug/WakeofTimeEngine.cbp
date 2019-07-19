@@ -102,10 +102,22 @@
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp">

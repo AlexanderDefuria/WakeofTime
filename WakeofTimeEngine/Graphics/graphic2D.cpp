@@ -8,7 +8,7 @@
 #include <sstream>
 #include <string>
 
-void graphic2D::loadBufferData( char *imgfilename) {
+void graphic2D::loadBufferData( char *imgfilename ) {
 
     std::string line;
 

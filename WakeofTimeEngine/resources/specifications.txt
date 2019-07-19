@@ -1,0 +1,12 @@
+PNG -----------------------------------
+Bits per sample     8,8,8
+Length              512
+Width               512
+X Resolution        118
+Y Resolution        118
+
+
+Point Mapping -------------------------
+
+
+CSV Level -----------------------------

@@ -204,6 +204,33 @@ Graphics/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.s
 .PHONY : Graphics/shader.cpp.s
 
+Graphics/tile.o: Graphics/tile.cpp.o
+
+.PHONY : Graphics/tile.o
+
+# target to build an object file
+Graphics/tile.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o
+.PHONY : Graphics/tile.cpp.o
+
+Graphics/tile.i: Graphics/tile.cpp.i
+
+.PHONY : Graphics/tile.i
+
+# target to preprocess a source file
+Graphics/tile.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.i
+.PHONY : Graphics/tile.cpp.i
+
+Graphics/tile.s: Graphics/tile.cpp.s
+
+.PHONY : Graphics/tile.s
+
+# target to generate assembly for a file
+Graphics/tile.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.s
+.PHONY : Graphics/tile.cpp.s
+
 deps/glad/glad.o: deps/glad/glad.c.o
 
 .PHONY : deps/glad/glad.o
@@ -230,6 +257,33 @@ deps/glad/glad.s: deps/glad/glad.c.s
 deps/glad/glad.c.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.s
 .PHONY : deps/glad/glad.c.s
+
+gameplay/level.o: gameplay/level.cpp.o
+
+.PHONY : gameplay/level.o
+
+# target to build an object file
+gameplay/level.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o
+.PHONY : gameplay/level.cpp.o
+
+gameplay/level.i: gameplay/level.cpp.i
+
+.PHONY : gameplay/level.i
+
+# target to preprocess a source file
+gameplay/level.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.i
+.PHONY : gameplay/level.cpp.i
+
+gameplay/level.s: gameplay/level.cpp.s
+
+.PHONY : gameplay/level.s
+
+# target to generate assembly for a file
+gameplay/level.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.s
+.PHONY : gameplay/level.cpp.s
 
 main.o: main.cpp.o
 
@@ -303,9 +357,15 @@ help:
 	@echo "... Graphics/shader.o"
 	@echo "... Graphics/shader.i"
 	@echo "... Graphics/shader.s"
+	@echo "... Graphics/tile.o"
+	@echo "... Graphics/tile.i"
+	@echo "... Graphics/tile.s"
 	@echo "... deps/glad/glad.o"
 	@echo "... deps/glad/glad.i"
 	@echo "... deps/glad/glad.s"
+	@echo "... gameplay/level.o"
+	@echo "... gameplay/level.i"
+	@echo "... gameplay/level.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

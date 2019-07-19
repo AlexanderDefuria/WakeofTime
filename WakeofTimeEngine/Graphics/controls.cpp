@@ -31,7 +31,7 @@ float horizontalAngle = 3.14f;
 // Initial vertical angle : none
 float verticalAngle = 0.0f;
 // Initial Field of View
-float initialFoV = 40.0f;
+float initialFoV = 50.0f;
 
 float speedbase = 0.0025f; // 3 units / second
 float speed;
@@ -39,7 +39,7 @@ float speed;
 int renderModule::frametime;
 
 glm::vec3 focus = glm::vec3( 0.0f, 0.0f, 0.0f );
-glm::vec3 cameraOffset = glm::vec3( 0.0f, -3.5f, 2.0f );
+glm::vec3 cameraOffset = glm::vec3( 0.0f, -3.5f, 2.5f );
 
 
 void computeMatricesFromInputs(GLFWwindow* window){

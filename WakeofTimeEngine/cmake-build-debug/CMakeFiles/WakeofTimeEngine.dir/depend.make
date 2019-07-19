@@ -13,6 +13,13 @@ CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o: ../Graphics/graphic2D.
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o: ../Graphics/shader.cpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o: ../Graphics/shader.h
 
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/graphic2D.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/tile.cpp
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/tile.h
+
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: ../gameplay/level.cpp
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: ../gameplay/level.h
+
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../renderModule.h
 

@@ -81,13 +81,11 @@ void renderModule::setup() {
     files["square"] = "../resources/images/test.png";
 
 
-
     auto *image = new graphic2D();
     image->load(files["square"]);
 
     auto *test = new graphic2D();
     test->load(files["square"]);
-
 
 
     glGenVertexArrays(1, &VertexArrayID);
@@ -99,11 +97,9 @@ void renderModule::setup() {
     glBindTexture(GL_TEXTURE_2D, textureID);
 
 
-
-
     // Give the image to OpenGL
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->image);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, test->image);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, test->width, test->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, test->image);
 
 
     // ... nice trilinear filtering ...
@@ -119,7 +115,6 @@ void renderModule::setup() {
     Texture = textureID;
     // Get a handle for our "myTextureSampler" uniform
     TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
-
 
 
     glGenBuffers(1, &vertexbuffer);

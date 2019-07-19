@@ -13,6 +13,13 @@ CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.h
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.h
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h

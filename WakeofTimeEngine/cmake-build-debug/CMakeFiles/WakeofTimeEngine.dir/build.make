@@ -135,6 +135,32 @@ CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.cpp -o CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.s
 
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: CMakeFiles/WakeofTimeEngine.dir/flags.make
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: ../gameplay/level.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp
+
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp > CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.i
+
+CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp -o CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.s
+
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: CMakeFiles/WakeofTimeEngine.dir/flags.make
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o -c /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp
+
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp > CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.i
+
+CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp -o CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.s
+
 # Object files for target WakeofTimeEngine
 WakeofTimeEngine_OBJECTS = \
 "CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o" \
@@ -142,7 +168,9 @@ WakeofTimeEngine_OBJECTS = \
 "CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" \
 "CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" \
 "CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o" \
-"CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o"
+"CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o" \
+"CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o" \
+"CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o"
 
 # External object files for target WakeofTimeEngine
 WakeofTimeEngine_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o
+WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o
+WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/build.make
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable WakeofTimeEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable WakeofTimeEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WakeofTimeEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
