@@ -44,7 +44,10 @@ void graphic2D::loadBufferData( char *imgfilename ) {
     }
 
 
-    //abort();
 
     file.close();
+}
+
+void graphic2D::onClick() {
+    // TODO Figure out clicking objects
 }

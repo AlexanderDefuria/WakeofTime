@@ -1,18 +1,13 @@
-//
+//a
 // Created by alexander on 02/07/19.
 //
 
-#include "controls.h"
 #include "../renderModule.h"
-// Include GLFW
-//#include <GLFW/glfw3.h>
-
-// Include GLM
+#include "controls.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <iostream>
 
-using namespace glm;
 
 
 glm::mat4 ViewMatrix;
@@ -33,7 +28,7 @@ float verticalAngle = 0.0f;
 // Initial Field of View
 float initialFoV = 50.0f;
 
-float speedbase = 0.0025f; // 3 units / second
+float speedbase = 0.0000025f; // 3 units / second
 float speed;
 
 int renderModule::frametime;
@@ -47,7 +42,7 @@ void computeMatricesFromInputs(GLFWwindow* window){
     int width, height;
     glfwGetWindowSize(window, &width, &height);
 
-    speed = speedbase / renderModule::frametime;
+    speed = speedbase * renderModule::frametime;
 
     // Compute time difference between current and last frame
 

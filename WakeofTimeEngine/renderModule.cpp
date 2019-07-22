@@ -9,7 +9,9 @@
 #include "Graphics/shader.h"
 #include "Graphics/graphic2D.h"
 #include <map>
+#include <algorithm>
 #include "renderModule.h"
+#include <glm/gtx/string_cast.hpp>
 
 
 
@@ -23,10 +25,13 @@ void renderModule::setup() {
         return;
     }
 
+
+
     // Create a windowed mode window and its OpenGL context
     glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
     window = glfwCreateWindow(1280, 720, "base", primary, NULL);
     if (!window) {
+        getchar();
         glfwTerminate();
 
         std::cout << "Failed to create window using GLFW!\n";
@@ -34,6 +39,7 @@ void renderModule::setup() {
     }
 
 
+    // Output information about the window
     glfwGetWindowSize(window, &width, &height);
     std::cout << "Window: \t Width: ";
     std::cout << width;
@@ -41,30 +47,40 @@ void renderModule::setup() {
     std::cout << height;
     std::cout << "px\n";
 
+
     // Make the window's context current
     glfwMakeContextCurrent(window);
 
+
+    // Initialize GLAD
     if (!gladLoadGLLoader((GLADloadproc) glfwGetProcAddress)) {
         std::cout << "Failed to initialize OpenGL context" << std::endl;
         return;
     }
 
-    // Ensure we can capture the escape key being pressed below
-    glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
+
+    // Setup Input
+    glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);            // Ensure we can capture the escape key being pressed below
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);    // Hide the mouse and enable unlimited mouvement
+    glfwPollEvents();
+    //glfwSetCursorPos(window, renderModule::width/2, renderModule::width/2); // Set the mouse at the center of the screen
 
 
+    // Set Swap Interval, 0 means no interval, 1 means in sync with monitor (VSync), 2 means double buffered
     glfwSwapInterval(0);
 
 
     // Turquoise background
     glClearColor(0.064f, 0.224f, 0.208f, 0.0f);
-    //glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
-    // Enable depth test.txt
+
+    // Enable depth
     glEnable(GL_LIGHT0);
     // Accept fragment if it closer to the camera than the former one
     glDepthFunc(GL_LESS);
 
+
+    //Setup transparency for our PNG format
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_COLOR, GL_ONE);
 
@@ -74,57 +90,70 @@ void renderModule::setup() {
     glUseProgram(shaderID);
 
     // Get a handle for our "MVP" uniform
-    MatrixID = glGetUniformLocation(shaderID, "MVP");
+    MatrixID = glGetUniformLocation(shaderID, "VP");
 
 
-    std::map<std::string, const char *> files;
     files["square"] = "../resources/images/test.png";
-
 
     auto *image = new graphic2D();
     image->load(files["square"]);
 
-    auto *test = new graphic2D();
-    test->load(files["square"]);
 
 
     glGenVertexArrays(1, &VertexArrayID);
     glBindVertexArray(VertexArrayID);
 
-
-    glGenTextures(1, &textureID);
     // "Bind" the newly created texture : all future texture functions will modify this texture
+    glGenTextures(1, &textureID);
     glBindTexture(GL_TEXTURE_2D, textureID);
 
 
     // Give the image to OpenGL
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->image);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, test->width, test->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, test->image);
 
-
-    // ... nice trilinear filtering ...
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);   // ... nice trilinear filtering ...
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-    // ... which requires mipmaps. Generate them automatically.
-    glGenerateMipmap(GL_TEXTURE_2D);
+    glGenerateMipmap(GL_TEXTURE_2D);    // ... which requires mipmaps. Generate them automatically.
     glEnable(GL_TEXTURE_2D);
 
 
+    TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
     Texture = textureID;
     // Get a handle for our "myTextureSampler" uniform
-    TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
+
+    static const GLfloat positiondata[] = {
+            1.0f, 1.0f, .0f, .0f,
+            1.0f, 1.0f, .0f, .0f,
+            1.0f, 1.0f, .0f, .0f,
+            1.0f, 1.0f, .0f, .0f,
+    };
 
 
+    int y = 0;
+    for (GLfloat x : image->vertex_buffer_data) {
+        image->vertex_buffer_data[y] = image->vertex_buffer_data[y];
+        y++;
+    }
+
+
+    // Create our buffers for the tiles
     glGenBuffers(1, &vertexbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(image->vertex_buffer_data), image->vertex_buffer_data, GL_STREAM_DRAW);
 
-
     glGenBuffers(1, &uvbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
     glBufferData(GL_ARRAY_BUFFER, sizeof(image->g_uv_buffer_data), image->g_uv_buffer_data, GL_STATIC_DRAW);
+
+    // That one was a zero and it kept crashing the program, I wanna kms, that took 2 hours of trying shit and examining...
+    glGenBuffers(1, &positionbuffer);
+    glBindBuffer(GL_ARRAY_BUFFER, positionbuffer);
+    glBufferData(GL_ARRAY_BUFFER, sizeof(positiondata), positiondata, GL_STREAM_DRAW);
+
+
+
 
     // Bind our texture in Texture Unit 0
     glActiveTexture(GL_TEXTURE0);
@@ -132,12 +161,56 @@ void renderModule::setup() {
     // Set our "myTextureSampler" sampler to use Texture Unit 0
     glUniform1i(TextureID, 0);
 
+
+
+}
+
+
+
+int LastUsedParticle = 0;
+// Finds a Particle in ParticlesContainer which isn't used yet.
+// (i.e. life < 0);
+int renderModule::FindUnusedTile(){
+
+    for(int i=LastUsedParticle; i<MaxTiles; i++){
+        if (!this->TilesContainer[i].used){
+            LastUsedParticle = i;
+            return i;
+        }
+    }
+
+    for(int i=0; i<LastUsedParticle; i++){
+        if (!this->TilesContainer[i].used){
+            LastUsedParticle = i;
+            return i;
+        }
+    }
+
+
+    return 0; // All particles are taken, override the first one
+}
+
+void renderModule::SortParticles(){
+
+    std::sort(&this->TilesContainer[0], &this->TilesContainer[MaxTiles]);
+
 }
 
 
 void renderModule::renderloop(){
     int totaltime = 0;
     int frames = 0;
+
+
+    this->TilesContainer[0].load("../resources/images/test.png");
+    this->TilesContainer[0].position(0,0,0);
+
+
+    int ParticlesCount = 0;
+    for(auto & p : this->TilesContainer)
+        if(p.used)
+            ParticlesCount++;
+
 
     do{
         // TIMING START
@@ -147,55 +220,78 @@ void renderModule::renderloop(){
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
+
+
         computeMatricesFromInputs(window);
         glm::mat4 ProjectionMatrix = getProjectionMatrix();
         glm::mat4 ViewMatrix = getViewMatrix();
-        glm::mat4 ModelMatrix = glm::mat4(1.0);
-        glm::mat4 MVP = ProjectionMatrix * ViewMatrix * ModelMatrix;
+        glm::mat4 VP = ProjectionMatrix * ViewMatrix;
+
 
 
         // Send our transformation to the currently bound shader,
         // in the "MVP" uniform
-        glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
+        glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &VP[0][0]);
+
 
 
         // 1rst attribute buffer : vertices
         glEnableVertexAttribArray(0);
         glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
         glVertexAttribPointer(
-                0,                  // attribute. No particular reason for 0, but must match the layout in the shader.
-                3,                  // size
-                GL_FLOAT,           // type
-                GL_FALSE,           // normalized?
-                0,                  // stride
-                (void*)nullptr            // array buffer offset
+                0,                         // attribute. No particular reason for 0, but must match the layout in the shader.
+                3,                         // size : x + y + z
+                GL_FLOAT,                  // type
+                GL_FALSE,                  // normalized?
+                0,                         // stride
+                (void*) nullptr            // array buffer offset
         );
+
         // 2nd attribute buffer : UVs
         glEnableVertexAttribArray(1);
         glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
         glVertexAttribPointer(
-                1,                                // attribute. No particular reason for 1, but must match the layout in the shader.
-                2,                                // size : U+V => 2
-                GL_FLOAT,                         // type
-                GL_FALSE,                         // normalized?
-                0,                                // stride
-                (void*)nullptr                          // array buffer offset
+                1,                         // attribute. No particular reason for 1, but must match the layout in the shader.
+                2,                         // size : U+V => 2
+                GL_FLOAT,                  // type
+                GL_FALSE,                  // normalized?
+                0,                         // stride
+                (void*) nullptr            // array buffer offset
+        );
+
+        // 2nd attribute buffer : UVs
+        glEnableVertexAttribArray(2);
+        glBindBuffer(GL_ARRAY_BUFFER, positionbuffer);
+        glVertexAttribPointer(
+                2,                         // attribute. No particular reason for 0, but must match the layout in the shader.
+                4,                         // size : x + y + z + scale
+                GL_FLOAT,                  // type
+                GL_FALSE,                  // normalized?
+                0,                         // stride
+                (void*) nullptr            // array buffer offset
         );
 
 
-        // Draw the square !
-        glDrawArraysInstanced(GL_QUADS, 0, 4, 1); // 12*3 indices starting at 0 -> 12 triangles
+
+        // These functions are specific to glDrawArrays*Instanced*.
+        // The first parameter is the attribute buffer we're talking about.
+        // The second parameter is the "rate at which generic vertex attributes advance when rendering multiple instances"
+        // http://www.opengl.org/sdk/docs/man/xhtml/glVertexAttribDivisor.xml
+        //glVertexAttribDivisor(0, 0); // particles vertices : always reuse the same 4 vertices -> 0
+        //glVertexAttribDivisor(1, 1); // positions : one per quad (its center)                 -> 1
+
+        // Draw the particules !
+        // This draws many times a small triangle_strip (which looks like a quad).
+        // This is equivalent to :
+        // for(i in ParticlesCount) : glDrawArrays(GL_TRIANGLE_STRIP, 0, 4),
+        // but faster.
+        glDrawArraysInstanced(GL_QUADS, 0, 4, 1);
 
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);
+        glDisableVertexAttribArray(2);
 
 
-
-        // TIMING END
-        auto stop = std::chrono::high_resolution_clock::now();
-        frametime = std::chrono::duration_cast<std::chrono::microseconds>(stop - start).count();
-        std::cout << "Time taken by function: "
-                  << frametime << " microseconds" << std::endl;
 
 
         // Swap buffers
@@ -204,11 +300,17 @@ void renderModule::renderloop(){
         frames++;
         totaltime += frametime;
 
+        // TIMING END
+        auto stop = std::chrono::high_resolution_clock::now();
+        frametime = std::chrono::duration_cast<std::chrono::microseconds>(stop - start).count();
+        //std::cout << "Time taken by function: "
+        //          << frametime << " microseconds" << ParticlesCount<< std::endl;
+
     } // Check if the ESC key was pressed or the window was closed
     while( glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS &&
            glfwWindowShouldClose(window) == 0 );
 
-    std::cout << totaltime/frames << std::endl;
+    std::cout << "\n\nAverage Time: " << totaltime/frames << " microseconds" << std::endl;
 
 
 

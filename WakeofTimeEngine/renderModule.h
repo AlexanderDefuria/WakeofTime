@@ -6,37 +6,56 @@
 #define WAKEOFTIMEENGINE_RENDERMODULE_H
 
 
+#include "Graphics/graphic2D.h"
 #include <GLFW/glfw3.h>
+#include <map>
+
+
 
 class renderModule {
 
-public:
-    ~renderModule();
-    void renderloop();
-    void setup();
+    public:
+        ~renderModule();
 
-    GLFWmonitor *primary;
-    GLFWwindow *window;
-    int width, height;
+        void renderloop();
 
-    static int frametime;
+        void setup();
+
+        GLFWmonitor *primary;
+        GLFWwindow *window;
+        int width, height;
+
+        static int frametime;
 
 
-private:
+        //
+        static const GLuint MaxTiles = 1000;
+        graphic2D TilesContainer[MaxTiles];
 
-    GLuint shaderID;
-    GLuint MatrixID;
 
-    GLuint VertexArrayID;
-    GLuint textureID;
 
-    GLuint Texture;
-    GLuint TextureID;
+    private:
+    // Setup map for different images TODO delete later
+        std::map<std::string, const char *> files;
 
-    GLuint uvbuffer;
-    GLuint vertexbuffer;
+        GLuint shaderID;
+        GLuint MatrixID;
 
+        GLuint VertexArrayID;
+        GLuint textureID;
+
+        GLuint Texture;
+        GLuint TextureID;
+
+        GLuint uvbuffer;
+        GLuint vertexbuffer;
+        GLuint positionbuffer;
+
+
+        int FindUnusedTile();
+        void SortParticles();
 };
+
 
 
 
