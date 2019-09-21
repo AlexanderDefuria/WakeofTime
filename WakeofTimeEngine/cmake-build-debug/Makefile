@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-bui
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -177,6 +177,33 @@ Graphics/graphic2D.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.s
 .PHONY : Graphics/graphic2D.cpp.s
 
+Graphics/objloader.o: Graphics/objloader.cpp.o
+
+.PHONY : Graphics/objloader.o
+
+# target to build an object file
+Graphics/objloader.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o
+.PHONY : Graphics/objloader.cpp.o
+
+Graphics/objloader.i: Graphics/objloader.cpp.i
+
+.PHONY : Graphics/objloader.i
+
+# target to preprocess a source file
+Graphics/objloader.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.i
+.PHONY : Graphics/objloader.cpp.i
+
+Graphics/objloader.s: Graphics/objloader.cpp.s
+
+.PHONY : Graphics/objloader.s
+
+# target to generate assembly for a file
+Graphics/objloader.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.s
+.PHONY : Graphics/objloader.cpp.s
+
 Graphics/shader.o: Graphics/shader.cpp.o
 
 .PHONY : Graphics/shader.o
@@ -203,6 +230,33 @@ Graphics/shader.s: Graphics/shader.cpp.s
 Graphics/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.s
 .PHONY : Graphics/shader.cpp.s
+
+Graphics/texture.o: Graphics/texture.cpp.o
+
+.PHONY : Graphics/texture.o
+
+# target to build an object file
+Graphics/texture.cpp.o:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o
+.PHONY : Graphics/texture.cpp.o
+
+Graphics/texture.i: Graphics/texture.cpp.i
+
+.PHONY : Graphics/texture.i
+
+# target to preprocess a source file
+Graphics/texture.cpp.i:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.i
+.PHONY : Graphics/texture.cpp.i
+
+Graphics/texture.s: Graphics/texture.cpp.s
+
+.PHONY : Graphics/texture.s
+
+# target to generate assembly for a file
+Graphics/texture.cpp.s:
+	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.s
+.PHONY : Graphics/texture.cpp.s
 
 Graphics/tile.o: Graphics/tile.cpp.o
 
@@ -354,9 +408,15 @@ help:
 	@echo "... Graphics/graphic2D.o"
 	@echo "... Graphics/graphic2D.i"
 	@echo "... Graphics/graphic2D.s"
+	@echo "... Graphics/objloader.o"
+	@echo "... Graphics/objloader.i"
+	@echo "... Graphics/objloader.s"
 	@echo "... Graphics/shader.o"
 	@echo "... Graphics/shader.i"
 	@echo "... Graphics/shader.s"
+	@echo "... Graphics/texture.o"
+	@echo "... Graphics/texture.i"
+	@echo "... Graphics/texture.s"
 	@echo "... Graphics/tile.o"
 	@echo "... Graphics/tile.i"
 	@echo "... Graphics/tile.s"

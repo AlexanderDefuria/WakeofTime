@@ -13,6 +13,8 @@
 #include "renderModule.h"
 #include <glm/gtx/string_cast.hpp>
 
+#include "Graphics/objloader.hpp"
+#include "Graphics/texture.hpp"
 
 
 void renderModule::setup() {
@@ -29,12 +31,14 @@ void renderModule::setup() {
 
     // Create a windowed mode window and its OpenGL context
     glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
-    window = glfwCreateWindow(1280, 720, "base", primary, NULL);
+
+    window = glfwCreateWindow(1280, 720, "base", primary, nullptr);
+
     if (!window) {
-        getchar();
         glfwTerminate();
 
         std::cout << "Failed to create window using GLFW!\n";
+
         return;
     }
 
@@ -65,10 +69,8 @@ void renderModule::setup() {
     glfwPollEvents();
     //glfwSetCursorPos(window, renderModule::width/2, renderModule::width/2); // Set the mouse at the center of the screen
 
-
     // Set Swap Interval, 0 means no interval, 1 means in sync with monitor (VSync), 2 means double buffered
-    glfwSwapInterval(0);
-
+    glfwSwapInterval(1);
 
     // Turquoise background
     glClearColor(0.064f, 0.224f, 0.208f, 0.0f);
@@ -79,10 +81,12 @@ void renderModule::setup() {
     // Accept fragment if it closer to the camera than the former one
     glDepthFunc(GL_LESS);
 
-
     //Setup transparency for our PNG format
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_COLOR, GL_ONE);
+
+    // Cull  Triangles which normal is not facing the camera
+    glEnable(GL_CULL_FACE);
 
 
     shaderID = LoadShaders("../shader/vertex.glsl", "../shader/fragment.glsl");
@@ -91,12 +95,6 @@ void renderModule::setup() {
 
     // Get a handle for our "MVP" uniform
     MatrixID = glGetUniformLocation(shaderID, "VP");
-
-
-    files["square"] = "../resources/images/test.png";
-
-    auto *image = new graphic2D();
-    image->load(files["square"]);
 
 
 
@@ -108,56 +106,34 @@ void renderModule::setup() {
     glBindTexture(GL_TEXTURE_2D, textureID);
 
 
-    // Give the image to OpenGL
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, image->width, image->height, 0, GL_RGBA, GL_UNSIGNED_BYTE, image->image);
 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);   // ... nice trilinear filtering ...
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-    glGenerateMipmap(GL_TEXTURE_2D);    // ... which requires mipmaps. Generate them automatically.
-    glEnable(GL_TEXTURE_2D);
+    Texture = loadDDS("../resources/uvmap.DDS");
 
 
     TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
     Texture = textureID;
     // Get a handle for our "myTextureSampler" uniform
 
-    static const GLfloat positiondata[] = {
-            1.0f, 1.0f, .0f, .0f,
-            1.0f, 1.0f, .0f, .0f,
-            1.0f, 1.0f, .0f, .0f,
-            1.0f, 1.0f, .0f, .0f,
-    };
 
 
-    int y = 0;
-    for (GLfloat x : image->vertex_buffer_data) {
-        image->vertex_buffer_data[y] = image->vertex_buffer_data[y];
-        y++;
-    }
+    // Read our .obj file
+
+    bool res = loadOBJ("../resources/cube.obj", vertices, uvs, normals);
 
 
-    // Create our buffers for the tiles
     glGenBuffers(1, &vertexbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, vertexbuffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(image->vertex_buffer_data), image->vertex_buffer_data, GL_STREAM_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, vertices.size() * sizeof(glm::vec3), &vertices[0], GL_STATIC_DRAW);
 
     glGenBuffers(1, &uvbuffer);
     glBindBuffer(GL_ARRAY_BUFFER, uvbuffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(image->g_uv_buffer_data), image->g_uv_buffer_data, GL_STATIC_DRAW);
-
-    // That one was a zero and it kept crashing the program, I wanna kms, that took 2 hours of trying shit and examining...
-    glGenBuffers(1, &positionbuffer);
-    glBindBuffer(GL_ARRAY_BUFFER, positionbuffer);
-    glBufferData(GL_ARRAY_BUFFER, sizeof(positiondata), positiondata, GL_STREAM_DRAW);
+    glBufferData(GL_ARRAY_BUFFER, uvs.size() * sizeof(glm::vec2), &uvs[0], GL_STATIC_DRAW);
 
 
 
 
     // Bind our texture in Texture Unit 0
     glActiveTexture(GL_TEXTURE0);
-    glBindTexture(GL_TEXTURE_2D, Texture);
     // Set our "myTextureSampler" sampler to use Texture Unit 0
     glUniform1i(TextureID, 0);
 
@@ -202,14 +178,6 @@ void renderModule::renderloop(){
     int frames = 0;
 
 
-    this->TilesContainer[0].load("../resources/images/test.png");
-    this->TilesContainer[0].position(0,0,0);
-
-
-    int ParticlesCount = 0;
-    for(auto & p : this->TilesContainer)
-        if(p.used)
-            ParticlesCount++;
 
 
     do{
@@ -226,6 +194,8 @@ void renderModule::renderloop(){
         glm::mat4 ProjectionMatrix = getProjectionMatrix();
         glm::mat4 ViewMatrix = getViewMatrix();
         glm::mat4 VP = ProjectionMatrix * ViewMatrix;
+
+
 
 
 
@@ -259,17 +229,7 @@ void renderModule::renderloop(){
                 (void*) nullptr            // array buffer offset
         );
 
-        // 2nd attribute buffer : UVs
-        glEnableVertexAttribArray(2);
-        glBindBuffer(GL_ARRAY_BUFFER, positionbuffer);
-        glVertexAttribPointer(
-                2,                         // attribute. No particular reason for 0, but must match the layout in the shader.
-                4,                         // size : x + y + z + scale
-                GL_FLOAT,                  // type
-                GL_FALSE,                  // normalized?
-                0,                         // stride
-                (void*) nullptr            // array buffer offset
-        );
+
 
 
 
@@ -285,7 +245,7 @@ void renderModule::renderloop(){
         // This is equivalent to :
         // for(i in ParticlesCount) : glDrawArrays(GL_TRIANGLE_STRIP, 0, 4),
         // but faster.
-        glDrawArraysInstanced(GL_QUADS, 0, 4, 1);
+        glDrawArrays(GL_TRIANGLES, 0, vertices.size());
 
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);

@@ -7,7 +7,9 @@
 int main( void )
 {
     renderModule* render = new renderModule;
+
     render->setup();
+
     render->renderloop();
     delete render;
 }

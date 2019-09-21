@@ -6,18 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp
-../renderModule.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
-controls.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
-glm/glm.hpp
--
-glm/gtc/matrix_transform.hpp
--
-iostream
--
-
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
 glm/glm.hpp
 -
@@ -36,29 +24,13 @@ iostream
 fstream
 -
 
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
+
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
 glad/glad.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/glad/glad.h
 
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp
-tile.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.h
-
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.h
-graphic2D.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
-
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp
-stdlib.h
--
-stdio.h
--
-iostream
--
-chrono
--
-renderModule.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/texture.hpp
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.cpp
 iostream
@@ -89,6 +61,10 @@ renderModule.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
 glm/gtx/string_cast.hpp
 -
+Graphics/objloader.hpp
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
+Graphics/texture.hpp
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/texture.hpp
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
 Graphics/graphic2D.h
@@ -97,4 +73,36 @@ GLFW/glfw3.h
 -
 map
 -
+vector
+-
+iostream
+-
+vector
+-
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+glm/gtc/matrix_transform.hpp
+-
+SOIL/SOIL.h
+-
+chrono
+-
+Graphics/controls.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
+Graphics/shader.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
+Graphics/graphic2D.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
+map
+-
+algorithm
+-
+renderModule.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
+glm/gtx/string_cast.hpp
+-
+Graphics/objloader.hpp
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
 

@@ -96,10 +96,22 @@
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/texture.cpp">
+			<Option target="WakeofTimeEngine"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/texture.hpp">
 			<Option target="WakeofTimeEngine"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/tile.cpp">

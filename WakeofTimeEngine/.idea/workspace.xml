@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/renderModule.cpp" line="243" />
-    <bookmark url="file://$PROJECT_DIR$/renderModule.cpp" line="215" />
-    <bookmark url="file://$PROJECT_DIR$/renderModule.cpp" line="117" />
-  </component>
   <component name="BuildServerSettings">
     <option name="LOGIN" value="" />
     <option name="SERVER_URL" value="http://buildserver" />
@@ -47,28 +42,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b7b4e5-bdf6-46b6-b115-a559efe5cc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/library zips/glad.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library zips/soil.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/objloader.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/objloader.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/texture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graphics/texture.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library zips/DevIL-1.8.0.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/uvmap.DDS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics/controls.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/controls.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics/graphic2D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/graphic2D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics/graphic2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/Graphics/graphic2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphics/graphic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphics/graphic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cube.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cube.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shader/fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/fragment.glsl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shader/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/vertex.glsl" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <ignored path="$PROJECT_DIR$/glfw-3.3/src/CMakeFiles/" />
-    <ignored path="$PROJECT_DIR$/glfw-3.3/CMakeFiles/" />
-    <ignored path="$PROJECT_DIR$/cmake-build-release/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,123 +89,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5480256">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="11" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/renderModule.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="160">
-                  <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/main.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="84">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#19#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Graphics/controls.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-249">
-                  <caret column="3" selection-start-column="3" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/resources/images/test.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="17" column="2" lean-forward="true" selection-start-line="13" selection-end-line="20" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/shader/fragment.glsl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/shader/vertex.glsl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/renderModule.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
-                  <folding>
-                    <element signature="e#126#157#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Graphics/graphic2D.cpp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="45" selection-start-line="45" selection-end-line="45" />
-                  <folding>
-                    <element signature="e#44#66#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Graphics/graphic2D.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="613">
-                  <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-                  <folding>
-                    <element signature="e#118#140#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -223,137 +116,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/object_pool.h" />
-        <option value="$PROJECT_DIR$/test.cpp" />
-        <option value="$PROJECT_DIR$/common/loadShader.h" />
-        <option value="$PROJECT_DIR$/common/shader.hpp" />
-        <option value="$PROJECT_DIR$/common/loadShader.cpp" />
-        <option value="$PROJECT_DIR$/ObjectPool.h" />
-        <option value="$PROJECT_DIR$/test.h" />
-        <option value="$PROJECT_DIR$/SimpleFragmentShader.fragmentshader" />
-        <option value="$PROJECT_DIR$/SimpleVertexShader.vertexshader" />
-        <option value="$PROJECT_DIR$/linmath.h" />
-        <option value="$PROJECT_DIR$/glad/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/SpriteRenderer.h" />
-        <option value="$PROJECT_DIR$/SpriteRenderer.cpp" />
-        <option value="$PROJECT_DIR$/renderer.h" />
-        <option value="$PROJECT_DIR$/shader/vector.glsl" />
-        <option value="$PROJECT_DIR$/vertex.glsl" />
-        <option value="$PROJECT_DIR$/deps/soil/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/deps/soil/SOIL.h" />
-        <option value="$PROJECT_DIR$/common/shader.cpp" />
-        <option value="$PROJECT_DIR$/common/shader.h" />
-        <option value="$PROJECT_DIR$/common/controls.h" />
-        <option value="$PROJECT_DIR$/common/controls.cpp" />
-        <option value="$PROJECT_DIR$/renderer.cpp" />
-        <option value="$PROJECT_DIR$/Graphics/renderLoop.h" />
-        <option value="$PROJECT_DIR$/Graphics/renderLoop.cpp" />
-        <option value="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" />
-        <option value="$PROJECT_DIR$/resources/images/test" />
-        <option value="$PROJECT_DIR$/Graphics/background.h" />
-        <option value="$PROJECT_DIR$/Graphics/background.cpp" />
-        <option value="$PROJECT_DIR$/Graphics/shader.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Graphics/renderloop.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/gameplay/level.h" />
-        <option value="$PROJECT_DIR$/Graphics/tile.h" />
-        <option value="$PROJECT_DIR$/resources/levels/levelone" />
-        <option value="$PROJECT_DIR$/resources/tileties" />
-        <option value="$PROJECT_DIR$/resources/tileties.csv" />
-        <option value="$PROJECT_DIR$/resources/tileties.txt" />
-        <option value="$PROJECT_DIR$/resources/levels/levelone.csv" />
-        <option value="$PROJECT_DIR$/resources/specifications.txt" />
-        <option value="$PROJECT_DIR$/resources/images/test2.txt" />
-        <option value="$PROJECT_DIR$/shader/fragment.glsl" />
-        <option value="$PROJECT_DIR$/resources/images/test.txt" />
-        <option value="$PROJECT_DIR$/renderModul2e.cpp" />
-        <option value="$PROJECT_DIR$/Graphics/graphic2D.cpp" />
-        <option value="$PROJECT_DIR$/Graphics/controls.cpp" />
-        <option value="$PROJECT_DIR$/renderModule.h" />
-        <option value="$PROJECT_DIR$/shader/vertex.glsl" />
-        <option value="$PROJECT_DIR$/Graphics/graphic2D.h" />
-        <option value="$PROJECT_DIR$/renderModule.cpp" />
-      </list>
-    </option>
-  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1920" />
-    <option name="height" value="1053" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="deps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="deps" type="462c0819:PsiDirectoryNode" />
-              <item name="glad" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="gameplay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="levels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
-              <item name="shader" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1QC8ySXWvpXIUuc4jmXQw3Xk2A2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Graphics" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -361,19 +135,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Graphics" />
+      <recent name="$PROJECT_DIR$/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources/images" />
+      <recent name="$PROJECT_DIR$/deps" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/library zips" />
       <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$/Graphics" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/deps" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/resources/images" />
-      <recent name="$PROJECT_DIR$/deps" />
-      <recent name="$PROJECT_DIR$/deps/glad" />
-      <recent name="$PROJECT_DIR$/glad" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -453,343 +227,45 @@
       <workItem from="1563732320318" duration="5000" />
       <workItem from="1563732593005" duration="8000" />
       <workItem from="1563734227467" duration="14484000" />
+      <workItem from="1567263472473" duration="104000" />
+      <workItem from="1568747010154" duration="1705000" />
+      <workItem from="1568749183378" duration="508000" />
+      <workItem from="1568938967820" duration="798000" />
+      <workItem from="1568940228528" duration="2024000" />
+      <workItem from="1569089463017" duration="126000" />
+      <workItem from="1569090480758" duration="405000" />
+      <workItem from="1569090945488" duration="1083000" />
+      <workItem from="1569092053914" duration="603000" />
+      <workItem from="1569092782638" duration="3290000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178125000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.178762" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17666303" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5594329" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="TeamCity" order="8" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32824427" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
-      <window_info anchor="bottom" id="CMake" order="13" weight="0.3293348" />
-      <window_info anchor="bottom" id="Profiler" order="14" weight="0.653217" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.178762" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17666303" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5594329" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="TeamCity" order="8" weight="0.3293348" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32824427" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3293348" />
-      <window_info anchor="bottom" id="CMake" order="13" weight="0.3293348" />
-      <window_info anchor="bottom" id="Profiler" order="14" weight="0.653217" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="vertexbuffer" language="ObjectiveC" />
+        <watch expression="vertexbuffer" />
+        <watch expression="x" language="ObjectiveC" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>vertexbuffer</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inst</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>intStack</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>data</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/Untitled.bmp" />
-    <entry file="file://$PROJECT_DIR$/Seed.png" />
-    <entry file="file://$PROJECT_DIR$/common/shader.hpp" />
-    <entry file="file:///usr/local/include/glm/detail/func_trigonometric.inl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/renderLoop.h" />
-    <entry file="file://$PROJECT_DIR$/Graphics/renderLoop.cpp" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-release/WakeofTimeEngine.cbp" />
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" />
-    <entry file="file:///usr/local/include/GLFW/glfw3.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79560">
-          <caret line="5304" column="13" selection-start-line="5304" selection-start-column="13" selection-end-line="5304" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/controls.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#118#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/bridge.bmp" />
-    <entry file="file:///usr/include/SOIL/SOIL.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="351" column="28" lean-forward="true" selection-start-line="351" selection-start-column="8" selection-end-line="351" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deps/linmath.h" />
-    <entry file="file://$PROJECT_DIR$/Graphics/shader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-802">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/test1.png" />
-    <entry file="file:///usr/include/c++/8/iosfwd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="115" column="10" selection-start-line="115" selection-start-column="10" selection-end-line="115" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/8/istream">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="485" column="22" selection-start-line="485" selection-start-column="22" selection-end-line="485" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/renderloop.h" />
-    <entry file="file://$PROJECT_DIR$/Graphics/shader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/renderloop.cpp" />
-    <entry file="file://$PROJECT_DIR$/Graphics/input.cpp" />
-    <entry file="file://$PROJECT_DIR$/Graphics/input.h" />
-    <entry file="file://$PROJECT_DIR$/loading.cpp" />
-    <entry file="file://$PROJECT_DIR$/loading.h" />
-    <entry file="file://$PROJECT_DIR$/Graphics/tile.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/tile.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/level.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/level.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a" />
-    <entry file="file://$PROJECT_DIR$/resources/tileties.csv" />
-    <entry file="file://$PROJECT_DIR$/resources/Image Specification.png" />
-    <entry file="file://$PROJECT_DIR$/resources/images/test2.png" />
-    <entry file="file://$PROJECT_DIR$/resources/images/test2.txt" />
-    <entry file="file://$PROJECT_DIR$/resources/Export Settings.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/specifications.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/tileties.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/c++/8/bits/predefined_ops.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deps/glad/glad.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="3420" column="44" selection-start-line="3420" selection-start-column="44" selection-end-line="3420" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/levels/levelone.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="false" fixedHeaders="false" rowLines="3">
-          <column index="0" width="100" />
-          <column index="1" width="100" />
-          <column index="2" width="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renderModul2e.cpp" />
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="13" selection-end-line="20" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renderModule.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#126#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shader/fragment.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/controls.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-249">
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/graphic2D.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-          <folding>
-            <element signature="e#118#140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphics/graphic2D.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#44#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shader/vertex.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/images/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renderModule.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

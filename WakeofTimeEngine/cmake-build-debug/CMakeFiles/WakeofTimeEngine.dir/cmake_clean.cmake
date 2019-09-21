@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o"
   "CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o"
   "CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o"
+  "CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o"
+  "CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o"
   "WakeofTimeEngine.pdb"
   "WakeofTimeEngine"
 )

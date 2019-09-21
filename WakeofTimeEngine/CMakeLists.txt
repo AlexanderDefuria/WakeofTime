@@ -13,9 +13,9 @@ set(GLAD "${PROJECT_SOURCE_DIR}/deps/glad/glad.h"
 
 link_directories("${PROJECT_SOURCE_DIR}/deps/glad")
 
-add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderModule.cpp renderModule.h Graphics/controls.cpp Graphics/controls.h Graphics/shader.cpp Graphics/shader.h Graphics/graphic2D.h Graphics/graphic2D.cpp gameplay/level.cpp gameplay/level.h Graphics/tile.cpp Graphics/tile.h)
+add_executable(WakeofTimeEngine deps/glad/glad.c main.cpp renderModule.cpp renderModule.h Graphics/controls.cpp Graphics/controls.h Graphics/shader.cpp Graphics/shader.h Graphics/graphic2D.h Graphics/graphic2D.cpp gameplay/level.cpp gameplay/level.h Graphics/tile.cpp Graphics/tile.h Graphics/objloader.cpp Graphics/objloader.hpp Graphics/texture.cpp Graphics/texture.hpp)
 
-target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl -lSOIL)
+target_link_libraries(WakeofTimeEngine PUBLIC -lglfw -lGLEW -lGLU -lGL -ldl -lSOIL -lIL -lILU -lILUT)
 
 find_package(OpenGL REQUIRED)
 

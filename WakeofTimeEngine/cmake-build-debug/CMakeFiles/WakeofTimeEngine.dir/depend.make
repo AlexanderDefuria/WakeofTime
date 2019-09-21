@@ -6,28 +6,39 @@ CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o: ../deps/glad/glad.c
 CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../Graphics/controls.cpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../Graphics/controls.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../Graphics/graphic2D.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../Graphics/objloader.hpp
+CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../Graphics/shader.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o: ../renderModule.h
 
 CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o: ../Graphics/graphic2D.cpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o: ../Graphics/graphic2D.h
 
+CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o: ../Graphics/objloader.cpp
+CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o: ../Graphics/objloader.hpp
+
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o: ../Graphics/shader.cpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o: ../Graphics/shader.h
 
-CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/graphic2D.h
+CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o: ../Graphics/texture.cpp
+
 CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/tile.cpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o: ../Graphics/tile.h
 
 CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: ../gameplay/level.cpp
 CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o: ../gameplay/level.h
 
+CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../Graphics/controls.h
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../Graphics/graphic2D.h
+CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../Graphics/objloader.hpp
+CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../Graphics/shader.h
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o: ../renderModule.h
 
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../Graphics/controls.h
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../Graphics/graphic2D.h
+CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../Graphics/objloader.hpp
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../Graphics/shader.h
+CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../Graphics/texture.hpp
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../renderModule.cpp
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o: ../renderModule.h
 

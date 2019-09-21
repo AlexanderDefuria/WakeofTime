@@ -9,6 +9,24 @@
 #include "Graphics/graphic2D.h"
 #include <GLFW/glfw3.h>
 #include <map>
+#include <vector>
+#include <iostream>
+#include <vector>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+#include <glm/gtc/matrix_transform.hpp>
+#include <SOIL/SOIL.h>
+#include <chrono>
+#include "Graphics/controls.h"
+#include "Graphics/shader.h"
+#include "Graphics/graphic2D.h"
+#include <map>
+#include <algorithm>
+#include "renderModule.h"
+#include <glm/gtx/string_cast.hpp>
+
+#include "Graphics/objloader.hpp"
+
 
 
 
@@ -51,6 +69,9 @@ class renderModule {
         GLuint vertexbuffer;
         GLuint positionbuffer;
 
+        std::vector<glm::vec3> vertices;
+        std::vector<glm::vec2> uvs;
+        std::vector<glm::vec3> normals; // Won't be used at the moment.
 
         int FindUnusedTile();
         void SortParticles();
