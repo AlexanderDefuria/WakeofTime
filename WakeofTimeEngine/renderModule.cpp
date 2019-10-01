@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <glad/glad.h>
+#include "glad.h"
 #include <GLFW/glfw3.h>
 #include <glm/gtc/matrix_transform.hpp>
 #include <SOIL/SOIL.h>
@@ -11,7 +11,6 @@
 #include <map>
 #include <algorithm>
 #include "renderModule.h"
-#include <glm/gtx/string_cast.hpp>
 
 #include "Graphics/objloader.hpp"
 #include "Graphics/texture.hpp"
@@ -31,6 +30,9 @@ void renderModule::setup() {
 
     // Create a windowed mode window and its OpenGL context
     glfwWindowHint(GLFW_RESIZABLE, GL_TRUE);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     window = glfwCreateWindow(1280, 720, "base", primary, nullptr);
 

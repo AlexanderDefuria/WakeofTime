@@ -11,6 +11,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../deps/./glad"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp" "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o"
@@ -27,10 +28,12 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../deps/./glad"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/CMakeFiles/glad.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

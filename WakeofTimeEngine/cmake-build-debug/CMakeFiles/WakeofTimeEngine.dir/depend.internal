@@ -3,7 +3,9 @@
 
 CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c
+ /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o
+ ../deps/./glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
@@ -11,12 +13,14 @@ CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o
+ ../deps/./glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
 CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o
+ ../deps/./glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
 CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o
@@ -28,6 +32,7 @@ CMakeFiles/WakeofTimeEngine.dir/gameplay/level.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.h
 CMakeFiles/WakeofTimeEngine.dir/main.cpp.o
+ ../deps/./glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
@@ -35,6 +40,7 @@ CMakeFiles/WakeofTimeEngine.dir/main.cpp.o
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/main.cpp
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
 CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o
+ ../deps/./glad/glad.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
  /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp

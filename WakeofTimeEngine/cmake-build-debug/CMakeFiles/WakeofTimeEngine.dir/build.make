@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6603.37/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -214,6 +214,7 @@ WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/build.make
+WakeofTimeEngine: deps/libglad.a
 WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable WakeofTimeEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WakeofTimeEngine.dir/link.txt --verbose=$(VERBOSE)
