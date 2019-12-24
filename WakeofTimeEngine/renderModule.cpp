@@ -70,7 +70,7 @@ void renderModule::setup() {
     //glfwSetCursorPos(window, renderModule::width/2, renderModule::width/2); // Set the mouse at the center of the screen
 
     // Set Swap Interval, 0 means no interval, 1 means in sync with monitor (VSync), 2 means double buffered
-    glfwSwapInterval(1);
+    glfwSwapInterval(0);
 
     // Turquoise background
     glClearColor(0.064f, 0.224f, 0.208f, 0.0f);

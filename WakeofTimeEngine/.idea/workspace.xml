@@ -42,42 +42,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61b7b4e5-bdf6-46b6-b115-a559efe5cc7d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Graphics/objloader.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphics/objloader.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphics/texture.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Graphics/texture.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library zips/DevIL-1.8.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/uvmap.DDS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/2019-10-09_18-40.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics/graphic.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics/graphic.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/WakeofTimeEngine.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/renderModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renderModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/renderModule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/cube.mtl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/cube.obj" beforeDir="false" afterPath="$PROJECT_DIR$/resources/cube.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader/fragment.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/fragment.glsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shader/vertex.glsl" beforeDir="false" afterPath="$PROJECT_DIR$/shader/vertex.glsl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,6 +217,9 @@
       <workItem from="1569090945488" duration="1083000" />
       <workItem from="1569092053914" duration="603000" />
       <workItem from="1569092782638" duration="3290000" />
+      <workItem from="1570060677424" duration="661000" />
+      <workItem from="1570653113350" duration="6000" />
+      <workItem from="1572493014611" duration="57000" />
     </task>
     <servers />
   </component>
