@@ -35,10 +35,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> 8a8ea3e9b5b630c70500483e1ddb81a72fba662f
 
 # Escaping for special characters.
 EQUALS = =
@@ -71,7 +78,7 @@ preinstall:
 # Target rules for target CMakeFiles/WakeofTimeEngine.dir
 
 # All Build rule for target.
-CMakeFiles/WakeofTimeEngine.dir/all:
+CMakeFiles/WakeofTimeEngine.dir/all: deps/CMakeFiles/glad.dir/all
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/depend
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target WakeofTimeEngine"
@@ -79,7 +86,7 @@ CMakeFiles/WakeofTimeEngine.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WakeofTimeEngine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/WakeofTimeEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/WakeofTimeEngine.dir/rule
@@ -93,6 +100,61 @@ WakeofTimeEngine: CMakeFiles/WakeofTimeEngine.dir/rule
 CMakeFiles/WakeofTimeEngine.dir/clean:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/clean
 .PHONY : CMakeFiles/WakeofTimeEngine.dir/clean
+
+#=============================================================================
+# Directory level rules for directory deps
+
+# Convenience name for "all" pass in the directory.
+deps/all: deps/CMakeFiles/glad.dir/all
+
+.PHONY : deps/all
+
+# Convenience name for "clean" pass in the directory.
+deps/clean: deps/CMakeFiles/glad.dir/clean
+
+.PHONY : deps/clean
+
+# Convenience name for "preinstall" pass in the directory.
+deps/preinstall:
+
+.PHONY : deps/preinstall
+
+#=============================================================================
+# Target rules for target deps/CMakeFiles/glad.dir
+
+# All Build rule for target.
+deps/CMakeFiles/glad.dir/all:
+	$(MAKE) -f deps/CMakeFiles/glad.dir/build.make deps/CMakeFiles/glad.dir/depend
+	$(MAKE) -f deps/CMakeFiles/glad.dir/build.make deps/CMakeFiles/glad.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target glad"
+.PHONY : deps/CMakeFiles/glad.dir/all
+
+# Include target in all.
+all: deps/CMakeFiles/glad.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+deps/CMakeFiles/glad.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 deps/CMakeFiles/glad.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles 0
+.PHONY : deps/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: deps/CMakeFiles/glad.dir/rule
+
+.PHONY : glad
+
+# clean rule for target.
+deps/CMakeFiles/glad.dir/clean:
+	$(MAKE) -f deps/CMakeFiles/glad.dir/build.make deps/CMakeFiles/glad.dir/clean
+.PHONY : deps/CMakeFiles/glad.dir/clean
+
+# clean rule for target.
+clean: deps/CMakeFiles/glad.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

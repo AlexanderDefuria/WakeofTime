@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../deps/./glad/glad.h
+KHR/khrplatform.h
+-
+
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/controls.h
 glm/glm.hpp
 -
@@ -15,8 +19,8 @@ GLFW/glfw3.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/graphic2D.h
 SOIL/SOIL.h
 -
-glad/glad.h
--
+glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/glad.h
 glm/vec3.hpp
 -
 iostream
@@ -27,8 +31,8 @@ fstream
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/shader.h
-glad/glad.h
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/glad/glad.h
+glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/glad.h
 
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/texture.hpp
 
@@ -37,8 +41,8 @@ iostream
 -
 vector
 -
-glad/glad.h
--
+glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/glad.h
 GLFW/glfw3.h
 -
 glm/gtc/matrix_transform.hpp
@@ -59,8 +63,6 @@ algorithm
 -
 renderModule.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
-glm/gtx/string_cast.hpp
--
 Graphics/objloader.hpp
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
 Graphics/texture.hpp
@@ -79,8 +81,8 @@ iostream
 -
 vector
 -
-glad/glad.h
--
+glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/glad.h
 GLFW/glfw3.h
 -
 glm/gtc/matrix_transform.hpp
@@ -101,8 +103,6 @@ algorithm
 -
 renderModule.h
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/renderModule.h
-glm/gtx/string_cast.hpp
--
 Graphics/objloader.hpp
 /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/Graphics/objloader.hpp
 

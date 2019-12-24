@@ -12,7 +12,7 @@
 #include <vector>
 #include <iostream>
 #include <vector>
-#include <glad/glad.h>
+#include "glad.h"
 #include <GLFW/glfw3.h>
 #include <glm/gtc/matrix_transform.hpp>
 #include <SOIL/SOIL.h>
@@ -23,7 +23,6 @@
 #include <map>
 #include <algorithm>
 #include "renderModule.h"
-#include <glm/gtx/string_cast.hpp>
 
 #include "Graphics/objloader.hpp"
 

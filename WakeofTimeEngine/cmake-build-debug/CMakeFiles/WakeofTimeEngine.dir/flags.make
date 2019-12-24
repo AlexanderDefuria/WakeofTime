@@ -7,11 +7,11 @@ C_FLAGS =  -O0 -g
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad 
 
 CXX_FLAGS =  -O0 -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad 
 

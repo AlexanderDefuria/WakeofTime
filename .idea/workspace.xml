@@ -23,15 +23,59 @@
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="WakeofTimeEngine" targetName="WakeofTimeEngine" />
+      <config projectName="WakeofTimeEngine" targetName="glad" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a27a09f9-6a74-41cf-a7a4-dcfb9291793d" name="Default Changelist" comment="" />
+    <list default="true" id="a27a09f9-6a74-41cf-a7a4-dcfb9291793d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WakeofTimeEngine/deps/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WakeofTime.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WakeofTime.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/graphic2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/graphic2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.h" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/controls.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/graphic2D.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/objloader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/shader.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/texture.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/Graphics/tile.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/deps/glad/glad.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir/renderModule.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/WakeofTimeEngine" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/WakeofTimeEngine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/WakeofTimeEngine.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/WakeofTimeEngine.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/deps/glad/glad.c" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/deps/glad/glad.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/renderModule.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/renderModule.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WakeofTimeEngine/renderModule.h" beforeDir="false" afterPath="$PROJECT_DIR$/WakeofTimeEngine/renderModule.h" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/WakeofTimeEngine/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +85,123 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/renderModule.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1230">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/objloader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/texture.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/texture.hpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/shader/fragment.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/shader/vertex.glsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/deps/glad/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/deps/glad/glad.c" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.h" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/Graphics/graphic2D.h" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/deps/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.cpp" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/renderModule.h" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/shader/vertex.glsl" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/shader/fragment.glsl" />
+        <option value="$PROJECT_DIR$/WakeofTimeEngine/renderModule.cpp" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="252" />
@@ -56,14 +215,73 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="deps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="deps" type="462c0819:PsiDirectoryNode" />
+              <item name="glad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="gameplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WakeofTimeEngine" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WakeofTime" type="462c0819:PsiDirectoryNode" />
+              <item name="WakeofTimeEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="shader" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WakeofTimeEngine/deps" />
+      <recent name="$PROJECT_DIR$/WakeofTimeEngine/deps/glad" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,6 +295,22 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="CMake Application.WakeofTimeEngine">
+    <configuration name="WakeofTimeEngine" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WakeofTimeEngine" TARGET_NAME="WakeofTimeEngine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="WakeofTimeEngine" RUN_TARGET_NAME="WakeofTimeEngine">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glad" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WakeofTimeEngine" TARGET_NAME="glad" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.WakeofTimeEngine" />
+      <item itemvalue="CMake Application.glad" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,37 +322,192 @@
       <option name="presentableId" value="Default" />
       <updated>1560380239937</updated>
       <workItem from="1560380242185" duration="13000" />
+      <workItem from="1569950994016" duration="1948000" />
+      <workItem from="1569954285401" duration="603000" />
+      <workItem from="1569955222894" duration="2330000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13000" />
+    <option name="totallyTimeSpent" value="4894000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="TeamCity" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TeamCity" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.3293348" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25831485" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="TeamCity" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/deps/glad/glad.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#521#539#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/deps/glad/glad.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/graphic2D.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/deps/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/renderModule.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#126#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/glm/gtx/dual_quaternion.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/glm/gtx/string_cast.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/shader/vertex.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/shader/fragment.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/texture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/texture.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/shader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/Graphics/objloader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WakeofTimeEngine/renderModule.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

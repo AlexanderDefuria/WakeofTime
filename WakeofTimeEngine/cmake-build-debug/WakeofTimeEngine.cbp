@@ -5,7 +5,7 @@
 		<Option title="WakeofTimeEngine"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug"/>
@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -57,6 +58,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
 					<Add directory="/usr/include/c++/8"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
 					<Add directory="/usr/include/c++/8/backward"/>
@@ -81,6 +83,54 @@
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -122,9 +172,10 @@
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c">
 			<Option target="WakeofTimeEngine"/>
+			<Option target="glad"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h">
-			<Option target="WakeofTimeEngine"/>
+			<Option target="glad"/>
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/gameplay/level.cpp">
 			<Option target="WakeofTimeEngine"/>
@@ -143,6 +194,9 @@
 		</Unit>
 		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

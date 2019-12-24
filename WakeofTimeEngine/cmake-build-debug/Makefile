@@ -39,10 +39,17 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
+<<<<<<< HEAD
 CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
 RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -E remove -f
+=======
+CMAKE_COMMAND = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake
+
+# The command to remove a file.
+RM = /home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E remove -f
+>>>>>>> 8a8ea3e9b5b630c70500483e1ddb81a72fba662f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +66,11 @@ CMAKE_BINARY_DIR = /home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-bui
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+<<<<<<< HEAD
 	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+=======
+	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+>>>>>>> 8a8ea3e9b5b630c70500483e1ddb81a72fba662f
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +81,11 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+<<<<<<< HEAD
 	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6817.32/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+=======
+	/home/alexander/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+>>>>>>> 8a8ea3e9b5b630c70500483e1ddb81a72fba662f
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +137,19 @@ WakeofTimeEngine: cmake_check_build_system
 WakeofTimeEngine/fast:
 	$(MAKE) -f CMakeFiles/WakeofTimeEngine.dir/build.make CMakeFiles/WakeofTimeEngine.dir/build
 .PHONY : WakeofTimeEngine/fast
+
+#=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) -f deps/CMakeFiles/glad.dir/build.make deps/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
 
 Graphics/controls.o: Graphics/controls.cpp.o
 
@@ -402,6 +430,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... WakeofTimeEngine"
 	@echo "... edit_cache"
+	@echo "... glad"
 	@echo "... Graphics/controls.o"
 	@echo "... Graphics/controls.i"
 	@echo "... Graphics/controls.s"

@@ -5,7 +5,7 @@
 #include "shader.h"
 #include <iostream>
 #include <vector>
-#include <glad/glad.h>
+#include "glad.h"
 #include <GLFW/glfw3.h>
 #include <fstream>
 #include <sstream>

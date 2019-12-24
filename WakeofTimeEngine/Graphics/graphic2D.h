@@ -5,7 +5,7 @@
 #define WAKEOFTIMEENGINE_GRAPHIC2D_H
 
 #include <SOIL/SOIL.h>
-#include <glad/glad.h>
+#include "glad.h"
 #include <glm/vec3.hpp>
 #include <iostream>
 #include <fstream>
