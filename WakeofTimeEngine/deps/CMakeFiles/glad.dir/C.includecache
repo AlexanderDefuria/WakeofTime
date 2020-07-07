@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+glad.h
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h
+windows.h
+-
+winapifamily.h
+-
+dlfcn.h
+-
+
+/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h
+KHR/khrplatform.h
+-
+

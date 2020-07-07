@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glad"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/./glad"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/glad/glad.h">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

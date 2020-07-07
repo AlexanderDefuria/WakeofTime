@@ -4,6 +4,7 @@
 #include <cstring>
 
 #include <glm/glm.hpp>
+#include <iostream>
 
 #include "objloader.hpp"
 
@@ -31,14 +32,24 @@ bool loadOBJ(
 	std::vector<glm::vec3> temp_normals;
 
 
+
 	FILE * file = fopen(path, "r");
-	if( file == NULL ){
+
+
+
+	if( file == nullptr ){
+
 		printf("Impossible to open the file ! Are you in the right path ? See Tutorial 1 for details\n");
 		getchar();
 		return false;
+	} else {
+        printf("test");
+        printf("\n");
 	}
 
-	while( 1 ){
+
+
+	while(1){
 
 		char lineHeader[128];
 		// read the first word of the line
@@ -107,6 +118,8 @@ bool loadOBJ(
 	
 	}
 	fclose(file);
+
+
 	return true;
 }
 

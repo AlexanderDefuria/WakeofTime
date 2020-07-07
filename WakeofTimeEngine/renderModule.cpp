@@ -67,7 +67,7 @@ void renderModule::setup() {
 
     // Setup Input
     glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);            // Ensure we can capture the escape key being pressed below
-    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);    // Hide the mouse and enable unlimited mouvement
+    //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);    // Hide the mouse and enable unlimited movement
     glfwPollEvents();
     //glfwSetCursorPos(window, renderModule::width/2, renderModule::width/2); // Set the mouse at the center of the screen
 
@@ -91,7 +91,7 @@ void renderModule::setup() {
     glEnable(GL_CULL_FACE);
 
 
-    shaderID = LoadShaders("../shader/vertex.glsl", "../shader/fragment.glsl");
+    shaderID = LoadShaders("./shader/vertex.glsl", "./shader/fragment.glsl");
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glUseProgram(shaderID);
 
@@ -109,7 +109,7 @@ void renderModule::setup() {
 
 
 
-    Texture = loadDDS("../resources/uvmap.DDS");
+    Texture = loadDDS("./resources/uvmap.DDS");
 
 
     TextureID = glGetUniformLocation(shaderID, "myTextureSampler");
@@ -117,10 +117,8 @@ void renderModule::setup() {
     // Get a handle for our "myTextureSampler" uniform
 
 
-
     // Read our .obj file
-
-    bool res = loadOBJ("../resources/cube.obj", vertices, uvs, normals);
+    bool res = loadOBJ("./resources/cube.obj", vertices, uvs, normals);
 
 
     glGenBuffers(1, &vertexbuffer);
@@ -132,12 +130,12 @@ void renderModule::setup() {
     glBufferData(GL_ARRAY_BUFFER, uvs.size() * sizeof(glm::vec2), &uvs[0], GL_STATIC_DRAW);
 
 
-
-
     // Bind our texture in Texture Unit 0
     glActiveTexture(GL_TEXTURE0);
     // Set our "myTextureSampler" sampler to use Texture Unit 0
     glUniform1i(TextureID, 0);
+
+    std::cout << uvs[0].x << std::endl;
 
 
 
@@ -248,6 +246,7 @@ void renderModule::renderloop(){
         // for(i in ParticlesCount) : glDrawArrays(GL_TRIANGLE_STRIP, 0, 4),
         // but faster.
         glDrawArrays(GL_TRIANGLES, 0, vertices.size());
+
 
         glDisableVertexAttribArray(0);
         glDisableVertexAttribArray(1);

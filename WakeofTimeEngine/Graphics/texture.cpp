@@ -41,8 +41,6 @@ GLuint loadDDS(const char *imagepath){
 
     GLuint textureID;
 
-   //exit(100);
-
 	return image;
 
 

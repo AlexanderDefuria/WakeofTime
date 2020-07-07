@@ -1,6 +1,0 @@
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/WakeofTimeEngine.dir
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/CMakeFiles/rebuild_cache.dir
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/CMakeFiles/glad.dir
-/home/alexander/Desktop/WakeofTime/WakeofTimeEngine/cmake-build-debug/deps/CMakeFiles/edit_cache.dir

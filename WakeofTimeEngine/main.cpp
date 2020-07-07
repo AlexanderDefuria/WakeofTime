@@ -6,7 +6,7 @@
 
 int main( void )
 {
-    renderModule* render = new renderModule;
+    renderModule * render = new renderModule;
 
     render->setup();
 
